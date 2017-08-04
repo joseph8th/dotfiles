@@ -1,0 +1,26 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/joseph8th/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/joseph8th/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/joseph8th/" (22906 21602 754935 389000) "Downloads/" ".xsession-errors" ".bash_logout" ".macromedia/" "dumps/" ".aptitude/" "../" "VirtualBox VMs/" ".gtkrc-xfce" "Videos/" ".thumbnails/" ".editorconfig" "CieloAgent-3.2.2-linux-deb-installer.run" ".QtWebEngineProcess/" ".ssh/" ".gitconfig" ".HipChat/" ".gnupg/" ".dmrc" ".vagrant.d/" "Dev/" ".gconf/" "public_org/" ".xscreensaver" "lib/" ".profile" ".emacs.d/" "data/" ".Xauthority" "Pictures/" "arc/" ".screenrc" ".bash_profile" ".xprofile" ".mozilla/" ".config/" ".local/" "Music/" ".dbus/" ".ICEauthority" "Documents/" ".cache/" "Desktop/" "Public/" ".sudo_as_admin_successful" "bin/" ".pki/" ".xsession-errors.old" ".gksu.lock" ".adobe/" ".bashrc" ".ipython/" "Templates/" ".python_history" "./" "tmp/" ".aws/" ".linuxmint/" ".gtkrc-2.0" "inception/" ".bash_aliases" ".mysql/" ".bash_history" "installers/")
+
+ ("/home/joseph8th/.emacs.d/" (22879 62587 50703 283000) "elpa/" "projectile-bookmarks.eld" "../" "eshell/" "lisp/" "project-explorer-cache/" "ac-comphist.dat" "ac-dict/" "term/" "init.el" "nxhtml/" ".mc-lists.el" "auto-save-list/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

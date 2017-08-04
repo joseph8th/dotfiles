@@ -1,0 +1,7 @@
+#+STARTUP: showall
+
+#+TITLE: Joseph's Dotfiles
+#+AUTHOR: Joseph Edwards VIII
+#+EMAIL: jedwards8th at gmail.com
+
+The usual suspects.
