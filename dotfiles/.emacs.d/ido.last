@@ -2,24 +2,146 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/joseph8th/" . ".emacs.d/")
+ ("/home/" . "joseph8th/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/" . "models/")
+ ("/home/joseph8th/inception/vhosts/gravity/" . "application/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/" . "done/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/" . "jobs/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/" . "skyfall/")
+ ("/home/joseph8th/Dev/skyfall_venv/" . "src/")
+ ("/home/joseph8th/Dev/" . "joseph8th/")
+ ("/home/joseph8th/tmp/" . "assets/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/" . "development/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/views/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/templates/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/models/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/" . "config/")
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/js/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/" . "js/")
+ ("/home/joseph8th/inception/vhosts/oblivion/" . "application/")
+ ("/home/joseph8th/inception/vhosts/" . "gravity/")
+ ("/home/joseph8th/inception/" . "vhosts/")
+ ("/home/joseph8th/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/joseph8th/"
+ "/home/joseph8th/Dev/joseph8th/dotfiles/"
+ "/home/joseph8th/Documents/"
+ "/home/joseph8th/Dev/skyfall_venv/src/skyfall/"
+ "/home/joseph8th/Dev/skyfall_venv/src/"
+ "/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/done/"
+ "/home/joseph8th/Dev/skyfall_venv/src/config/"
+ "/home/joseph8th/inception/vhosts/gravity/application/models/"
+ "/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/"
+ "/home/joseph8th/inception/vhosts/gravity/application/migrations/"
+ "/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/tmp/"
+ "/home/joseph8th/Dev/skyfall_venv/src/skyfall/brokers/"
+ "/home/joseph8th/Dev/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/config/development/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/models/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/views/admin/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/models/admin/"
+ "/home/joseph8th/inception/vhosts/oblivion/assets/js/admin/"
  "/home/joseph8th/.emacs.d/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
+ ".bash_profile"
+ "collect.sh"
+ "creds.org"
+ "README.org"
+ "JobRunner.py"
+ "Scheduler.py"
+ "agent.py"
+ "SNMP.py"
+ "agent.cfg"
+ "DataTypes.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/joseph8th/" (22906 21602 754935 389000) "Downloads/" ".xsession-errors" ".bash_logout" ".macromedia/" "dumps/" ".aptitude/" "../" "VirtualBox VMs/" ".gtkrc-xfce" "Videos/" ".thumbnails/" ".editorconfig" "CieloAgent-3.2.2-linux-deb-installer.run" ".QtWebEngineProcess/" ".ssh/" ".gitconfig" ".HipChat/" ".gnupg/" ".dmrc" ".vagrant.d/" "Dev/" ".gconf/" "public_org/" ".xscreensaver" "lib/" ".profile" ".emacs.d/" "data/" ".Xauthority" "Pictures/" "arc/" ".screenrc" ".bash_profile" ".xprofile" ".mozilla/" ".config/" ".local/" "Music/" ".dbus/" ".ICEauthority" "Documents/" ".cache/" "Desktop/" "Public/" ".sudo_as_admin_successful" "bin/" ".pki/" ".xsession-errors.old" ".gksu.lock" ".adobe/" ".bashrc" ".ipython/" "Templates/" ".python_history" "./" "tmp/" ".aws/" ".linuxmint/" ".gtkrc-2.0" "inception/" ".bash_aliases" ".mysql/" ".bash_history" "installers/")
+ ("/home/" (22879 56548 988340 224000) "../" "joseph8th/" "./")
 
- ("/home/joseph8th/.emacs.d/" (22879 62587 50703 283000) "elpa/" "projectile-bookmarks.eld" "../" "eshell/" "lisp/" "project-explorer-cache/" "ac-comphist.dat" "ac-dict/" "term/" "init.el" "nxhtml/" ".mc-lists.el" "auto-save-list/" "./")
+ ("/home/joseph8th/Dev/joseph8th/" (22915 56653 309679 158000) "git-home/" "../" "shkeleton/" "flaskapp/" "emacs/" "dotfiles/" "pybrat/" "pydemo/" "readcfg/" "persistbash/" "devdial/" "pydemo.build/" "pydemo.exe" "./" "linux-utils/")
+
+ ("/home/joseph8th/Dev/joseph8th/dotfiles/" (22915 64593 641871 408000) "../" "README.org" "collect.sh" "./" ".#collect.sh")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/" (22915 37643 213218 888000) "../" "todo/" "__init__.py" "SNMP.py" "done/" "Maintenance.py" "KDMList.py" "ServerLog.py" "./" "tmp/" "AutoDetect.py" "__pycache__/")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/done/" (22915 37013 717203 646000) "DeviceStatus.py" "../" "RestartAgent.py" "AgentHostProfile.py" "ConfigUpdate.py" "ServerSchedule.py" "GetScripts.py" "Discovery.py" "ActivePlaylist.py" "./" "AutoDetect.py")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/" (22915 29447 469020 453000) "pytz/" "ftp/" "VERSION" "temp/" "../" "brokertool.py" "core/" "exec/" "log/" "tests/" "sony/" ".gitignore" "pysnmp/" "README.md" "build_pkg.py" "agent.py" "setup.py" "pkg/" "requests/" "botocore/" "MANIFEST" "boto3/" "skyfall/" ".git/" "pyasn1/" "requirements.txt" "config/" "cache/" "./" "tmp/" "installers/" "__pycache__/" "run/")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/" (22915 39577 137265 712000) "LicenseManager.py" "APIManager.py" "BaseJob.py" "../" "LogParser.py" "DataTypes.py" "BrokerManager.py" "BaseBroker.py" "SNMPManager.py" "__init__.py" "FTPManager.py" "JobRunner.py" "PingIP.py" "Utility.py" "Constants.py" "AutoDetector.py" "SysProfile.py" "brokers/" "CacheManager.py" "Scheduler.py" "./" "jobs/" "ConfigurationManager.py" "__pycache__/")
+
+ ("/home/joseph8th/.emacs.d/" (22915 16264 628701 272000) "elpa/" "session.21c8659d7-6c0a-4631-9a02-cf3ca3601082" "projectile-bookmarks.eld" "../" "eshell/" "session.27e1a424c-59b5-45f3-bddc-2264864e830d" "lisp/" "session.2ef66dab2-4567-47d3-bf2b-f2e80fd3a6ad" "project-explorer-cache/" "ac-comphist.dat" "ac-dict/" "term/" "ido.last" "init.el" "nxhtml/" ".mc-lists.el" "auto-save-list/" "./")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/development/" (22912 61458 617035 253000) "config.php.default" "database.php" "../" "config.php" "index.html" "constants.php" "database.php.default" "constants.php.default" "./")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/tmp/" (22914 15710 563101 107000) "../" "Test.py" "./")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/migrations/" (22915 12268 584604 520000) "022_MTX3249_add_lamp_forecast.php" "012_MTX2954_add_force_backfill_chunk_to_auditorium_agent.php" "025_MTX3042_add_gdc_sx4000_services.php" "010_MTX3166_alter_vpf_clip_log_gap_table.php" "006_MTX3150_add_start_end_datetime_columns_to_vpf_clip_log.php" "001_MTX2909_add_table_user_dashboards.php" "029_MTX3034_update_gdc_raid_smart_services.php" "../" "016_MTX3194_add_disabled_ondemand_flag_complex_agent.php" "011_MTX2954_add_force_backfill_end_column_auditorium_agent.php" "005_MTX3157_fix_admin_manager_role_notification_restrictions.php" "019_MTX3228_add_playback_schedules_report_module.php" "028_MTX3303_add_doremi_ims3000_services.php" "020_MTX3208_add_report_email_jobs_table.php" ".project" "013_MTX3180_add_complex_agent_overrides.php" ".gitignore" "027_MTX3034_add_gdc_raid_smart_services.php" "009_MTX3166_add_vpf_clip_log_gap_table.php" "015_MTX3190_adjust_log_history_minutes_default_val.php" ".req/" "008_MTX3114_add_auditorium_agent_table.php" "002_MTX2993_user_group.php" "017_MTX3131_add_vpf_mft_column_to_client.php" "004_MTX3148_add_missing_log_report_module.php" "023_MTX3227_convert_tables_to_utf8.php" "018_MTX3125_unique_sso_integration.php" "014_MTX2900_review_feedback_columns_data.php" "007_MTX3150_add_log_history_minutes_agent_override.php" "021_MTX3281_snmp_polling_freq_update.php" "003_MTX2952_add_filter_order_to_badge_unique_idx.php" "024_MTX2903_added_weekly_report_to_report_module.php" ".git" "030_MTX3182_add_schedule_type_col_service_tables.php" "026_MTX3034_remove_old_gdc_raid_smart_services.php" "./")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/config/" (22915 16625 388710 6000) "data_cache.json" "license.bin" "../" "public-1496866629.pem" "public.pem" "poller.cfg.bak" ".#config.json" "agent-1_371.bin" "agent-1_542.bin" "config_creds.cfg" "poller.cfg.local.bak" "actions.json" "poller.cfg.old" "agent.cfg" "aaa-complex_374.bin" "./" "agent-5_188.bin" "agent-4_373.bin")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/models/" (22915 16137 364698 191000) "User_model.php" "v2/" "Cron_model.php" "Reports_model.php" "Events_model.php" "../" "events/" "Support_users_model.php" "Notification_model.php" "Feature_model.php" "Support_ticket_model.php" "Support_comment_model.php" "Clip_model.php" "Api_model.php" "index.html" "Complex_model.php" "Badge_model.php" "System_health_model.php" "Report_api_model.php" "Users_model.php" "Support_comment_history_model.php" "Tron_model.php" "Event_log_model.php" "Client_model.php" "Auditorium_model.php" "Services_model.php" "Support_ticket_history_model.php" "./")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/todo/" (22913 20432 17628 672000) "../" "OnDemand.py" "Maintenance.py" "./")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/" (22911 17582 798780 938000) "hooks/" "helpers/" "plugins/" "../" "third_party/" "core/" "tests/" "models/" "logs/" "index.html" "libraries/" "language/" "controllers/" "views/" ".htaccess" "config/" "cache/" "migrations/" "./")
+
+ ("/home/joseph8th/inception/vhosts/gravity/" (22911 21421 579514 298000) "environment.php.staging.bak" "../" "jobber/" "vendor/" "environment.php" "contrib/" ".editorconfig" "environment.php.sample" "composer.json" ".gitignore" "environment.php.demo.bak" ".gitmodules" "README.md" "application/" "composer.lock" "environment.php.qa.bak" "environment.php.dev.bak" "phpunit.xml" "index.php" "system/" ".git/" ".htaccess" "agent_scripts/" "scripts/" "./")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/brokers/" (22913 20432 601628 686000) "VistaPOS.py" "../" "Barco.py" "NCRPOS.py" "Status.py" "__init__.py" "GDC.py" "SNMP.py" "Qalif.py" "Doremi.py" "Christie.py" "Dolby.py" "Sony.py" "AgentHost.py" "./" "AAPOS.py" "__pycache__/")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/models/admin/" (22912 61942 701046 974000) "Admin_ajax_model.php" "../" "Admin_admin_user_model.php" "Admin_services_model.php" "Admin_login_model.php" "Admin_package_model.php" "Admin_complex_model.php" "Admin_module_model.php" "Admin_reports_model.php" "Admin_events_model.php" "Admin_role_model.php" "Admin_alerts_model.php" "Admin_note_model.php" "Admin_user_model.php" "Admin_client_model.php" "./" "Admin_auditorium_model.php")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/tmp/" (22898 15633 831592 579000) "Discovery.py.bak" "../" "AutoDetect.py.bak" "./")
+
+ ("/home/joseph8th/Dev/skyfall_venv/etc/" (22896 47186 942861 309000) "../" "_arc/" "mibs/" "docs/" "lab/" "pyinstaller-files/" "builder.zip" "licenses/" "scripts/" "./")
+
+ ("/home/joseph8th/Dev/skyfall_venv/tmp/" (22903 26277 570380 323000) "../" "exec/" "dolby_log.tsv" "static/" "old_dep_pkgs/" "main/" "barcotmp.py" "test1.zip" "dolby.json" "dolby.tsv" "test1/" "jobsmaker.py" "./" "makenodetmp.py")
+
+ ("/home/joseph8th/Dev/skyfall_venv/" (22896 47186 942861 309000) "../" "lib64/" "etc/" "src/" "share/" "lib/" "pyvenv.cfg" "pip-selfcheck.json" "builder/" "include/" "bin/" "./" "tmp/" "installers/")
+
+ ("/home/joseph8th/tmp/assets/" (22883 39920 514960 636000) "vhosts/" "Codeigniter-mongo-library/" "reporter/" "../" "tron/" "CodeIgniter-2/" "CodeIgniter-3.1.2/" "sony_mft_key.tar.gz" "redis-stable/" "codeigniter-restserver/" "ssl/" "sony-mft/" "revolutions-assets.zip" "vpf_mft/" "revolutions-assets/" "staticcielocinemacom.pem" "alert_summary.xlsx" "matrix-rev-changelog.md" "MTX3115-cleanup/" "scaledb/" "Content-Play-Report_31_SPE_20150707-20150805.csv" "database/" "requirements.txt" "sony_mft_key/" "csv2xlsx/" "aws/" "ssmtp/" "./" "mongify/" "tmp/" ".aws/")
+
+ ("/home/joseph8th/tmp/" (22883 39810 926964 330000) "../" "assets/" "./")
+
+ ("/home/joseph8th/Documents/" (22907 26449 523581 601000) "Christie/" "matrix-readme.pdf" "win7-box" "Cinedigm/" "../" ".#scratch.org" "Cloud-Research/" "bookmarks.html" "Load_Regression_1.xlsx" "cielo_sony_alerts.org" "remote_access/" ".~lock.Nelson Diaz Ascendo.doc#" "testing_kdm" "Cielo - Login Flow.gdraw" "CIELO CMS.pdf" "Screenvision/" "Time Off Request Form.pdf" "creds.org" "Documentation/" "Minority-Report/" "matrix-readme.html" "AWS/" "Benefits/" "CIELO Management System - Auditorium Notes-Tasks Requirements.docx" "Green-Loading-Button-90784.gif" "Load Test - Flows.pdf" "postman/" "matrix-readme_files/" "Mockups/" "MyTemp/" "Dev-Candidates/" "APIs/" "CIELO_CMS_-_Alerts_Management_Module_Mockup.png" "Nelson Diaz Ascendo.doc" "./" "Presentations/" "Aptana Rubles/" "CMS_Dashboard.png" "CIELO Management System - Alerts Management Requirements.docx" "Clients/" "interviews/")
+
+ ("/home/joseph8th/Dev/" (22888 55407 675150 922000) "pem/" "ff_webide/" "cielo_dev.sql" "clones_skyfall/" "../" "doc/" "org-ehtml/" "utils/" "python/" "prometheus/" "fonts/" "snmp_services/" "code_review/" "test_scripts/" "christie/" "SAP/" "cielo_dev.sql~" "tmp.sh" "vpn/" "testing_kdm" "zenoss/" "nagios/" "vpf/" "lib_crc/" "testzone/" "joseph8th/" "skyfall-provision/" "staging/" "wolvie.txt" "d3/" "skyfall_venv/" "vnc_unixsrc/" "gravity_bak/" "challenges/" "js/" "microsite/" "php-coding-standard/" "mr_maker/" "noc/" "lcarchs/" "emacs-web-server/" "csv2xlsx/" "api_v2/" "java/" "demo/" "debug/" "poller/" "sql/" "metabase/" "./" "mongify/" "vnc/" "Clients/")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/" (22912 61919 253046 406000) "looper/" "../" "vendor/" "environment.php" "contrib/" ".editorconfig" "environment.php.sample" "composer.json" ".project" ".gitignore" "environment.php.demo.bak" ".gitmodules" "README.md" "application/" "composer.lock" "environment.php.qa.bak" "environment.php.dev.bak" ".mrrc/" "phpunit.xml" "index.php" "system/" ".git/" "jenkins.sh" ".htaccess" "assets/" "licenses/" "scripts/" "./")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/models/" (22912 61942 701046 974000) "Access_model.php" "../" "admin/" "events/" "Admin_users_model.php" "Partners_model.php" "Lamps_model.php" "test/" "index.html" "System_health_model.php" "Login_model.php" "Devices_model.php" "Event_log_model.php" "Services_model.php" "./" "Support_tickets_model.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/" (22911 21186 369404 133000) "development/" "rest.php" "database.php" "smileys.php" "../" "config.php" "autoload.php" "profiler.php" "email.php" "foreign_chars.php" "index.html" "mimes.php" "constants.php" "staging/" "migration.php" "user_agents.php" "routes.php" "demo/" "doctypes.php" "hooks.php" "./" "production/" "testing/")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/views/admin/" (22911 21187 293428 127000) "templates/" "users.php" "../" "auditoriums-add.php" "notes.php" "auditoriums.php" "users-edit.php" "services.php" "clients-wizard.php" "templates.php" "users-add.php" "clients-edit.php" "devoops.php" "clients.php" "complexes-edit.php" "packages-edit.php" "notes-add.php" "packages-add.php" "packages.php" "modules-edit.php" "notes-edit.php" "complexes.php" "dashboard.php" "modules.php" "modules-add.php" "services-edit.php" "auditoriums-edit.php" "./" "clients-add.php" "login.php" "services-add.php" "complexes-add.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/views/" (22911 21187 333429 166000) "email/" "../" "partners/" "layout/" "admin/" "system_health/" "dashboard/" "index.html" "devices/" "errors/" "lamps/" "test.php" "admin_users/" "./")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/templates/admin/" (22911 21187 469432 696000) "auditorium_services.html" "../" "index.html" "./" "services.html")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/templates/" (22911 21187 477432 904000) "../" "admin/" "module/" "index.html" "user.html" "alert_summary.html" "setup.html" "send-reset-link.html" "offline_agents.html" "./")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/" (22911 21186 501407 561000) "hooks/" "helpers/" "plugins/" "../" "third_party/" "core/" "tests/" "models/" "logs/" "index.html" "libraries/" "language/" "controllers/" "views/" ".htaccess" "config/" "cache/" "./")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/js/admin/" (22911 21187 421431 450000) "users.js" "validate-complex.js" "complexes.js" "client.js" "validate-module.js" "../" "validate-package.js" "login.js" "validate-user.js" "validate-client-wizard.js" "dashboard.js" "clients.js" "validate-services.js" "user.js" "global.js" "validate-auditorium.js" "validate-client.js" "auditorium-services.js" "guts-list.js" "devoops-constants.js" "auditoriums.js" "guts-global.js" "complex.js" "complex-form.js" "validate-note.js" "services.js" "guts-form.js" "note.js" "./")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/js/" (22911 21187 469432 696000) "google_analytics.js" "partners.js" "bootstrap-v3.min.js" "../" "admin/" "handlebars-v1.3.0.js" "select2.min.js" "bootstrap-v2.min.js" "alert_summary.js" "restive.min.js" "jquery.form.min.js" "reports.js" "jquery-1.10.2.min.js" "global.js" "bootstrapValidator.js" "index.html" "devices.js" "jquery.fileDownload.min.js" "bootstrap.min.js" "jquery.validate.min.js" "lamps.js" "device_detection.js" "jquery.fancybox.min.js" "default_datatables.js" "jquery.fileupload.js" "moment.js" "jquery.cookie.js" "jquery.numeric.min.js" "jquery.cookie.min.js" "prettyCheckable.min.js" "autobahn.min.js" "epiceditor.min.js" "jquery.fancybox.js" "jquery.placeholder.min.js" "jquery.scrollto.min.js" "admin_users.js" "jquery.form.js" "stay_standalone.js" "./" "processing_status.js" "offline_agents.js" "jquery-ui-1.10.3.custom.min.js" "jquery.fileDownload.js" "jquery.countdown.min.js")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/" (22879 59457 237170 156000) "templates/" "css/" "../" "fonts/" "devoops/" "xml/" "index.html" "images/" "js/" "upload/" "./")
+
+ ("/home/joseph8th/inception/vhosts/" (22879 59453 885103 419000) "prestige/" "material-design-icons/" "matrix/" "../" "gravity/" "matrix_v3/" "matrix_rev/" "prometheus/" ".gitignore" "local_papi/" "oblivion/" "./" "tmp/")
+
+ ("/home/joseph8th/inception/" (22883 49056 580463 431000) "vhosts/" "provision.sh" "../" ".gitattributes" ".gitignore" "Vagrantfile" "README.md" "cielo-mysql.box" ".git/" "assets/" ".vagrant/" "./" "tmp/" ".aws/")
+
+ ("/home/joseph8th/" (22912 58410 340961 449000) "Downloads/" ".xsession-errors" ".bash_logout" ".remmina/" ".macromedia/" "dumps/" ".aptitude/" "../" "VirtualBox VMs/" ".gtkrc-xfce" "Videos/" ".thumbnails/" ".editorconfig" ".QtWebEngineProcess/" ".ssh/" ".gitconfig" ".HipChat/" ".gnupg/" ".dmrc" ".vagrant.d/" "Dev/" ".gconf/" "public_org/" ".xscreensaver" "lib/" ".profile" ".emacs.d/" "data/" ".Xauthority" "Pictures/" "arc/" ".screenrc" ".bash_profile" ".xprofile" ".mozilla/" ".config/" ".local/" "Music/" ".dbus/" ".ICEauthority" "Documents/" ".cache/" "Desktop/" ".texmf-var/" "Public/" ".sudo_as_admin_successful" "bin/" ".pki/" ".xsession-errors.old" ".gksu.lock" ".adobe/" ".bashrc" ".ipython/" "Templates/" ".python_history" "./" "tmp/" ".aws/" ".linuxmint/" ".gtkrc-2.0" "inception/" ".bash_aliases" ".mysql/" ".bash_history" "installers/" ".guake-indicator/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
