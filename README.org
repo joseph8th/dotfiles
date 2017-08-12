@@ -28,9 +28,9 @@ Empty lines and lines starting with a '#' will be ignored.
 
 If you want to do something after collecting or depositing, you can add a command to =eval= at runtime with by starting the line with one of:
 
-- ='$ '= (run on collect OR deposit)
-- ='$C '= (run on collect only)
-- ='$D '= (run on deposit only)
+- =$ = (run on collect OR deposit)
+- =$C = (run on collect only)
+- =$D = (run on deposit only)
 
 ** Example
 
