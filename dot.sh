@@ -46,8 +46,8 @@ collect() {
     for elt in "${@}"; do
 	# Run commands specified by leading '$ ' or '$C '
 	if [[ "${elt:0:1}" == "$" ]]; then
-	    [[ "${elt:1:1}" == " " ]] && echo "all subcmd..." && _do_cmd "${elt:2}"
-	    [[ "${elt:1:1}" == "C" ]] && echo "collect subcmd..." && _do_cmd "${elt:3}"
+	    [[ "${elt:1:1}" == " " ]] && _do_cmd "${elt:2}"
+	    [[ "${elt:1:1}" == "C" ]] && _do_cmd "${elt:3}"
 	    continue
 	fi
 
