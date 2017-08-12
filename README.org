@@ -34,10 +34,22 @@ $C run on collect only
 $D run on deposit only
 #+end_example
 
-** Example
+** Example 1
+
+Removes =session.*= files from .emacs.d after collecting:
 
 #+begin_example
 .emacs.d
 $C rm ./dotfiles/.emacs.d/session.*
 .bashrc
+#+end_example
+
+** Example 2
+
+Preserves tree during collect and deposit:
+
+#+begin_example
+$C mkdir -p ./dotfiles/workspace/myproject
+$D mkdir -p $HOME/workspace/myproject
+workspace/myproject/.editorconfig
 #+end_example
