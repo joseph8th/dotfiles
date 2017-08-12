@@ -1,7 +1,41 @@
 #+STARTUP: showall
 
-#+TITLE: Joseph's Dotfiles
+#+TITLE: Joseph8th's Dotfiles
 #+AUTHOR: Joseph Edwards VIII
 #+EMAIL: jedwards8th at gmail.com
 
-The usual suspects.
+My script to collect and deposit dotfiles, along with the dotfiles themselves.
+
+* Install
+
+#+begin_src bash
+git clone https://github.com/joseph8th/dotfiles.git
+#+end_src
+
+* Usage
+
+#+begin_example
+usage: dot.sh {collect|deposit}
+#+end_example
+
+Edit =Dotfile= and list your dotfiles relative to =$HOME= (script won't create trees so keep that in mind). The script will respect the order of the lines and process sequentially.
+
+** Comments
+
+Empty lines and lines starting with a '#' will be ignored.
+
+** Eval Commands
+
+If you want to do something after collecting or depositing, you can add a command to =eval= at runtime with by starting the line with one of:
+
+- ='$ '= (run on collect OR deposit)
+- ='$C '= (run on collect only)
+- ='$D '= (run on deposit only)
+
+** Example
+
+#+begin_example
+.emacs.d
+$C rm ./dotfiles/.emacs.d/session.*
+.bashrc
+#+end_example
