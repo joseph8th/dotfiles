@@ -1,0 +1,12 @@
+# All paths relative to $HOME.
+# Specify directory with trailing slash.
+# Specify bash command with leading '$ ' (note the space):
+#   '$C ' - do on collect (capital-C)
+#   '$D ' - do on deposit (capital-D)
+
+.emacs.d/
+$C rm ./dotfiles/.emacs.d/session.*
+.screenrc
+.bash_aliases
+.bash_profile
+.editorconfig
