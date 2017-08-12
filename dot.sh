@@ -8,7 +8,7 @@ _copy() {
 	read -p "Overwrite $dst ? REALLY? {yes|no}: " doow
 	[[ "$doow" != "yes" ]] && echo "Skipping $src" && return 1
     fi
-    if [[ -d "$dst" ]]; then
+    if [[ -d "$src" ]]; then
 	rm -rf "$dst"
 	cp -r "$src" "$dst"
     else
