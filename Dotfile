@@ -3,8 +3,19 @@
 #   '$C ' - do on collect (capital-C)
 #   '$D ' - do on deposit (capital-D)
 
+# Gotta git my .emacs.d bih ...
 .emacs.d
+
+# ... But when I collect I don't want my old sessions...
 $C rm ./dotfiles/.emacs.d/session.*
+
+# ... And when I deposit I wanna see my new .emacs.d ...
+$D ls ~/.emacs.d
+
+# ... Because YES you can eval arbitrary valid bash (or invalid FTM). BE CAREFUL!
+$ who is god
+
+# The rest of these don't need any hand-holding so just copy
 .screenrc
 .bash_aliases
 .bash_profile
