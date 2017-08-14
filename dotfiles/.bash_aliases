@@ -22,6 +22,10 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+# useful aliases
+alias dirsize='du -h --max-depth=1 | sort -hr'
+alias watchcp='watch lsof -p`pgrep -x cp`'
+
 # even more aliases
 alias megatron='ssh joseph8th@10.0.0.245'
 alias skyfall='cd ~/Dev/skyfall_venv/src'
