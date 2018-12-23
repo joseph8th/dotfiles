@@ -1,21 +1,34 @@
-#+STARTUP: showall
+#+STARTUP: showall indent
 
-#+TITLE: Joseph8th's Dotfiles
+#+TITLE: Dotty
 #+AUTHOR: Joseph Edwards VIII
 #+EMAIL: jedwards8th at gmail.com
 
-My script to collect and deposit dotfiles, along with the dotfiles themselves.
+My script to collect and deposit dotfiles via your personal Git repo, along with the dotfiles themselves.
 
 * Install
 
-#+begin_src bash
-git clone https://github.com/joseph8th/dotfiles.git
-#+end_src
+Since Dotty is intended to be used in conjunction with Git, it won't help you much to just clone and use it. If you're a GitHub user, just fork this repo and skip the irrelevant installation steps below. Otherwise, do the following:
+
+1. Clone this repo:
+
+   #+begin_src bash
+     git clone https://github.com/joseph8th/dotfiles.git
+   #+end_src
+
+2. Create your own =dotfiles= repo (in GitHub, GitLab, Bitbucket, etc)
+3. Set the =origin= url in your local =dotfiles= to your new repo. Example:
+
+   #+begin_src bash
+     git remote set-url origin git@github.com:YOURUSER/dotfiles.git
+   #+end_src
+
+4. Push your local to your new repo.
 
 * Usage
 
 #+begin_example
-usage: dot.sh {collect|deposit}
+usage: dotty {collect|deposit}
 #+end_example
 
 Edit =Dotfile= and list your dotfiles relative to =$HOME= (script won't create trees so keep that in mind). The script will respect the order of the lines and process sequentially.
@@ -34,7 +47,9 @@ $C run on collect only
 $D run on deposit only
 #+end_example
 
-** Example 1
+*NOTE*: Shell commands are relative to =Dotfile=, so use absolute paths in these.
+
+*** Example 1
 
 Removes =session.*= files from .emacs.d after collecting:
 
@@ -44,7 +59,7 @@ $C rm ./dotfiles/.emacs.d/session.*
 .bashrc
 #+end_example
 
-** Example 2
+*** Example 2
 
 Preserves tree during collect and deposit:
 
@@ -53,3 +68,45 @@ $C mkdir -p ./dotfiles/workspace/myproject
 $D mkdir -p $HOME/workspace/myproject
 workspace/myproject/.editorconfig
 #+end_example
+
+** Setup .gitignore
+
+Since Dotty collects your dotfiles so you can push them to your personal Git repo, you can use the =.gitignore= in this directory to further customize what gets pushed, *even if it has been collected*.
+
+For example, in the previous section I used a shell command to remove =session.*= files from my =.emacs.d=, but I could have instead added =session.*= to the =.gitignore=. (In fact, if you look, I did do this.) I also don't want to push any compiled emacs lisp, so I added =*.elc= to it as well.
+
+This means that =session.*= files would not appear in my =dotfiles= directory, but =*.elc*= files *would*. Either way, they won't be pushed!
+
+** Collect
+
+Once you're happy with your =Dotfile= configuration, just run =collect=:
+
+#+begin_src bash
+  ./dotty collect
+#+end_src
+
+Then do =ls -a dotfiles= and make sure everything is as you like. Tweak your =Dotfile= until it's perfect.
+
+Once you're satisfied, you can add, commit and push your dotfiles to your personal repo:
+
+#+begin_src bash
+  git add --all
+  git commit -m 'updated dotfiles'
+  git push origin master
+#+end_src
+
+** Deposit
+
+Now that your own dotfiles are in your own repo, you are ready to deposit them on some other system.
+
+On the other system where you want to =deposit=, do this:
+
+#+begin_src bash
+  git clone git@github.com:YOURUSER/dotfiles.git
+  cd dotfiles
+  ./dotty deposit
+#+end_src
+
+That's it!
+
+Your dotfiles are now put away where you want them. Obviously you need to check that you didn't break anything, but that's always true when copying dotfiles around from system to system.
