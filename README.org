@@ -91,6 +91,8 @@ Once you're satisfied, you can add, commit and push your dotfiles to your person
   git push origin master
 #+end_src
 
+Or, if you'd rather keep your =master= branch clean (this is what I do), then create a new branch for your dotfiles. This can be especially handy if you have some dotfiles for, say, Ubuntu, and some for CentOS.
+
 ** Deposit
 
 Now that your own dotfiles are in your own repo, you are ready to deposit them on some other system.
