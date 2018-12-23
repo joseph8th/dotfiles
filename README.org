@@ -11,18 +11,14 @@ My script to collect and deposit dotfiles via your personal Git repo, along with
 Since Dotty is intended to be used in conjunction with Git, it won't help you much to just clone and use it. If you're a GitHub user, just fork this repo and skip the irrelevant installation steps below. Otherwise, do the following:
 
 1. Clone this repo:
-
    #+begin_src bash
      git clone https://github.com/joseph8th/dotfiles.git
    #+end_src
-
 2. Create your own =dotfiles= repo (in GitHub, GitLab, Bitbucket, etc)
 3. Set the =origin= url in your local =dotfiles= to your new repo. Example:
-
    #+begin_src bash
      git remote set-url origin git@github.com:YOURUSER/dotfiles.git
    #+end_src
-
 4. Push your local to your new repo.
 
 * Usage
