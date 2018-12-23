@@ -1,0 +1,636 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/third_party/the-core/" . "libraries/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/third_party/" . "the-core/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/libraries/Cielo/" . "Utils/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/libraries/" . "Cielo/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/assets/js/" . "views/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/es/" . "reports/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/en/" . "reports/")
+ ("/home/joseph8th/inception/tmp/" . "es/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/models/" . "reports/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/assets/templates/" . "reports/")
+ ("/scp:qa-matrix:workspace/qamatrix/application/config/" . "testing/")
+ ("/scp:qa-matrix:workspace/qamatrix/application/" . "config/")
+ ("/scp:qa-matrix:workspace/qamatrix/" . "application/")
+ ("/scp:qa-matrix:workspace/" . "qamatrix/")
+ ("/scp:qa-matrix:" . "workspace/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/es/" . "reports/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/devmatrix/application/config/" . "testing/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/devmatrix/application/" . "config/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/devmatrix/" . "application/")
+ ("/scp:dev-matrix:workspace/devmatrix/assets/" . "js/")
+ ("/scp:dev-matrix:workspace/devmatrix/" . "assets/")
+ ("/scp:antman:/home/cielo/skyfall_venv/src/" . "installers/")
+ ("/scp:antman:/home/cielo/skyfall_venv/" . "src/")
+ ("/scp:staging-matrix:/home/ubuntu/workspace/stagmatrix/assets/templates/" . "module/")
+ ("/scp:staging-matrix:/home/ubuntu/workspace/stagmatrix/application/" . "views/")
+ ("/scp:staging-matrix:/home/ubuntu/workspace/stagmatrix/assets/" . "templates/")
+ ("/scp:staging-matrix:/home/ubuntu/workspace/stagmatrix/" . "assets/")
+ ("/scp:staging-matrix:workspace/stagmatrix/application/" . "models/")
+ ("/scp:staging-matrix:workspace/stagmatrix/" . "application/")
+ ("/scp:staging-matrix:workspace/" . "stagmatrix/")
+ ("/scp:staging-matrix:" . "workspace/")
+ ("/var/www/html/js_css/" . "js/")
+ ("/var/www/html/assets/" . "js/")
+ ("/var/www/html/" . "js_css/")
+ ("/var/www/html/application/views/" . "client/")
+ ("/etc/apache2/" . "sites-available/")
+ ("/etc/" . "apache2/")
+ ("/scp:portal-admin_prometheus:/home/ubuntu/workspace/portal-prometheus/application/" . "controllers/")
+ ("/scp:portal-admin_prometheus:/home/ubuntu/workspace/portal-prometheus/" . "application/")
+ ("/scp:portal-admin_prometheus:workspace/portal-prometheus/application/config/" . "production/")
+ ("/scp:portal-admin_prometheus:workspace/portal-prometheus/application/" . "config/")
+ ("/scp:portal-admin_prometheus:workspace/portal-prometheus/" . "application/")
+ ("/scp:portal-matrix_gravity-main:/home/ubuntu/workspace/portal-matrix/application/config/" . "production/")
+ ("/scp:portal-matrix_gravity-main:/home/ubuntu/workspace/portal-matrix/application/" . "config/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-matrix/application/third_party/the-core/" . "models/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-matrix/application/third_party/" . "the-core/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-matrix/application/" . "third_party/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-matrix/" . "application/")
+ ("/home/joseph8th/.emacs.d/snippets/" . "php-mode/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/en/" . "reports/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/" . "es/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/" . "es/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/system/language/" . "english/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/system/" . "language/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/config/" . "development/")
+ ("/home/joseph8th/Dev/challenges/ErnestoArias/application/views/" . "data/")
+ ("/home/joseph8th/Dev/challenges/ErnestoArias/application/" . "models/")
+ ("/home/joseph8th/Dev/challenges/ErnestoArias/" . "application/")
+ ("/home/joseph8th/Dev/challenges/CarlosJGonzalez/" . "config/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/the-core/libraries/" . "reports/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/the-core/models/" . "reports/")
+ ("/scp:portal-matrix_gravity-main:/home/ubuntu/workspace/portal-gravity/application/config/" . "testing/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-gravity/application/config/" . "production/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/" . "testing/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/third_party/the-core/libraries/" . "Warehouse/")
+ ("/scp:portal-admin_prometheus:workspace/portal-oblivion/application/config/" . "production/")
+ ("/scp:portal-admin_prometheus:workspace/portal-oblivion/application/" . "config/")
+ ("/scp:portal-admin_prometheus:workspace/portal-oblivion/" . "application/")
+ ("/scp:portal-admin_prometheus:workspace/" . "portal-prometheus/")
+ ("/scp:portal-admin_prometheus:" . "workspace/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-gravity/application/migrations/" . ".req/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-gravity/application/" . "config/")
+ ("/scp:portal-matrix_gravity-main:workspace/portal-gravity/" . "application/")
+ ("/scp:portal-matrix_gravity-main:workspace/" . "portal-matrix/")
+ ("/scp:portal-matrix_gravity-main:" . "workspace/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/views/" . "layout/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/models/" . "events/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/views/admin/" . "templates/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/third_party/the-core/" . "models/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/third_party/" . "the-core/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/models/" . "admin/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/third_party/the-core/" . "models/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/third_party/" . "the-core/")
+ ("/scp:qa-matrix:/var/www/matrix/application/views/" . "layout/")
+ ("/scp:qa-matrix:/var/www/matrix/application/third_party/the-core/" . "controllers/")
+ ("/scp:qa-matrix:/var/www/matrix/application/third_party/" . "the-core/")
+ ("/scp:qa-matrix:/var/www/" . "matrix/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/libraries/Cielo/Agent/Asset/Projector/" . "Barco/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/libraries/Cielo/Agent/Asset/" . "Projector/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/libraries/Cielo/Agent/" . "Asset/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/libraries/Cielo/" . "Agent/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/libraries/" . "Cielo/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/models/" . "events/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/controllers/" . "v2/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/config/" . "staging/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/config/" . "production/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/" . "config/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/" . "application/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/views/" . "admin/")
+ ("/scp:staging-ob-pr:/data/www/admin/application/" . "views/")
+ ("/scp:staging-ob-pr:/data/www/admin/" . "application/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/dev-matrix/application/third_party/the-core/" . "models/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/dev-matrix/application/third_party/" . "the-core/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/dev-matrix/application/" . "config/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/the-core/" . "models/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/" . "the-core/")
+ ("/scp:dev-matrix:/home/ubuntu/workspace/dev-matrix/application/config/" . "development/")
+ ("/scp:dev-matrix:workspace/dev-matrix/application/config/" . "development/")
+ ("/scp:dev-matrix:workspace/dev-matrix/application/" . "controllers/")
+ ("/scp:dev-matrix:workspace/dev-matrix/" . "application/")
+ ("/scp:dev-matrix:workspace/" . "devmatrix/")
+ ("/scp:dev-matrix:" . "workspace/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/models/" . "admin/")
+ ("/scp:dev-oblivion:/home/ubuntu/workspace/dev-oblivion/application/config/" . "staging/")
+ ("/scp:dev-oblivion:/home/ubuntu/workspace/dev-oblivion/application/views/" . "admin/")
+ ("/scp:dev-prometheus:/home/ubuntu/workspace/dev-prometheus/application/" . "controllers/")
+ ("/scp:dev-prometheus:workspace/dev-prometheus/application/config/" . "development/")
+ ("/scp:dev-prometheus:workspace/dev-prometheus/application/" . "config/")
+ ("/scp:dev-prometheus:workspace/dev-prometheus/" . "application/")
+ ("/scp:dev-prometheus:workspace/" . "dev-prometheus/")
+ ("/scp:dev-prometheus:" . "workspace/")
+ ("/scp:dev-oblivion:/home/ubuntu/workspace/dev-oblivion/application/models/" . "admin/")
+ ("/scp:dev-oblivion:/home/ubuntu/workspace/dev-oblivion/" . "application/")
+ ("/scp:dev-oblivion:/home/ubuntu/workspace/dev-oblivion/application/" . "config/")
+ ("/scp:dev-oblivion:workspace/dev-oblivion/application/config/" . "development/")
+ ("/scp:dev-oblivion:workspace/dev-oblivion/application/" . "config/")
+ ("/scp:dev-oblivion:workspace/dev-oblivion/" . "application/")
+ ("/scp:dev-oblivion:workspace/" . "dev-oblivion/")
+ ("/scp:dev-oblivion:" . "workspace/")
+ ("/scp:dev-gravity:workspace/dev-gravity/application/migrations/" . ".req/")
+ ("/scp:dev-gravity:workspace/dev-gravity/application/" . "migrations/")
+ ("/scp:dev-gravity:workspace/dev-gravity/" . "application/")
+ ("/scp:dev-gravity:workspace/" . "dev-gravity/")
+ ("/scp:dev-gravity:" . "workspace/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/" . "language/")
+ ("/scp:thing:/home/cielo/gash/static/" . "css/")
+ ("/scp:thing:/home/cielo/gash/" . "static/")
+ ("/scp:thing:gash/" . "templates/")
+ ("/scp:thing:" . "gash/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/vger/settings/" . "default/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/vger/" . "settings/")
+ ("/scp:staging-ob-pr:/data/www/prometheus/application/third_party/the-core/" . "models/")
+ ("/scp:staging-ob-pr:/data/www/prometheus/application/third_party/" . "the-core/")
+ ("/scp:staging-ob-pr:/data/www/prometheus/application/" . "third_party/")
+ ("/scp:staging-ob-pr:/data/www/prometheus/" . "application/")
+ ("/scp:staging-ob-pr:/data/www/" . "admin/")
+ ("/scp:qa-gravity:/var/www/gravity/application/" . "migrations/")
+ ("/scp:qa-gravity:/var/www/gravity/" . "application/")
+ ("/home/joseph8th/inception/vhosts/prometheus/vger/settings/" . "default/")
+ ("/scp:qa-prometheus:/opt/prometheus/" . "jobber/")
+ ("/scp:qa-prometheus:/opt/" . "prometheus/")
+ ("/scp:staging-ma-gr:/data/www/matrix/system/database/drivers/" . "odbc/")
+ ("/scp:staging-ma-gr:/data/www/matrix/system/database/" . "drivers/")
+ ("/scp:staging-ma-gr:/data/www/matrix/system/" . "database/")
+ ("/scp:staging-ma-gr:/data/www/matrix/application/third_party/the-core/libraries/" . "Warehouse/")
+ ("/scp:staging-ma-gr:/data/www/matrix/application/third_party/the-core/" . "libraries/")
+ ("/scp:staging-ma-gr:/data/www/matrix/application/third_party/" . "the-core/")
+ ("/scp:staging-ma-gr:/data/www/matrix/application/config/" . "staging/")
+ ("/scp:staging-ma-gr:/data/www/matrix/application/" . "config/")
+ ("/scp:staging-ma-gr:/data/www/matrix/" . "application/")
+ ("/scp:staging-ma-gr:/data/www/gravity/application/config/" . "staging/")
+ ("/home/joseph8th/inception/vhosts/matrix/system/database/drivers/" . "mysqli/")
+ ("/home/joseph8th/inception/vhosts/matrix/system/database/" . "drivers/")
+ ("/home/joseph8th/inception/vhosts/matrix/system/" . "database/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/system/database/drivers/" . "postgre/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/system/database/" . "drivers/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/system/" . "database/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/application/third_party/the-core/libraries/" . "Warehouse/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/application/third_party/the-core/" . "libraries/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/application/third_party/" . "the-core/")
+ ("/scp:devmatrix:workspace/dev-matrix/application/config/" . "development/")
+ ("/scp:devmatrix:workspace/dev-matrix/application/" . "config/")
+ ("/scp:devmatrix:workspace/dev-matrix/" . "application/")
+ ("/scp:devmatrix:workspace/" . "dev-matrix/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/application/config/" . "development/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/application/" . "controllers/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/dev-matrix/" . "system/")
+ ("/scp:devmatrix:/home/ubuntu/workspace/" . "dev-matrix/")
+ ("/scp:devmatrix:/home/ubuntu/" . "workspace/")
+ ("/scp:devmatrix:gravity/application/config/" . "development/")
+ ("/scp:devmatrix:gravity/application/" . "config/")
+ ("/scp:devmatrix:gravity/" . "application/")
+ ("/scp:devmatrix:" . "workspace/")
+ ("/scp:cielo@env.cielocinema.com:/home/cielo/gash/static/" . "css/")
+ ("/scp:cielo@env.cielocinema.com:/home/cielo/gash/" . "static/")
+ ("/scp:cielo@env.cielocinema.com:gash/" . "templates/")
+ ("/scp:cielo@env.cielocinema.com:" . "gash/")
+ ("/scp:antman:beacon_venv/" . "etc/")
+ ("/home/joseph8th/Dev/challenges/AndreiKhaliaukin/" . "CIELO-Python-Challenge/")
+ ("/home/joseph8th/Dev/beacon_venv/src/etc/" . "systemd/")
+ ("/home/joseph8th/Dev/beacon_venv/src/pkg/" . "systemd/")
+ ("/home/joseph8th/Dev/beacon_venv/src/" . "etc/")
+ ("/home/joseph8th/Dev/beacon_venv/" . "etc/")
+ ("/home/joseph8th/inception/assets/" . "database/")
+ ("/home/joseph8th/.emacs.d/" . "snippets/")
+ ("/home/joseph8th/Dev/inception_dev/" . "inception/")
+ ("/home/joseph8th/Dev/bask_venv/src/" . "bask/")
+ ("/home/joseph8th/Dev/bask_venv/" . "src/")
+ ("/scp:antman:skyfall_venv/installers/" . "linux-arm/")
+ ("/scp:antman:/home/pi/skyfall_venv/installers/" . "linux-arm/")
+ ("/scp:antman:/home/pi/skyfall_venv/" . "installers/")
+ ("/scp:antman:skyfall_venv/src/" . "config/")
+ ("/scp:antman:skyfall_venv/" . "src/")
+ ("/scp:antman:" . "skyfall_venv/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/build/" . "cieloagent-linux/")
+ ("/home/joseph8th/Dev/challenges/AlexisTamayo/" . "ces/")
+ ("/home/joseph8th/Dev/skyfall_venv/installers/linux-arm/CieloAgent-4.2.0-linux-arm-installer/cieloagent-linux/" . "scripts/")
+ ("/home/joseph8th/Dev/skyfall_venv/installers/linux-arm/CieloAgent-4.2.0-linux-arm-installer/" . "cieloagent-linux/")
+ ("/home/joseph8th/Dev/skyfall_venv/installers/linux-arm/" . "CieloAgent-4.2.0-linux-arm-installer/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/views/admin/" . "templates/")
+ ("/home/joseph8th/Dev/challenges/python-challenge/" . "example/")
+ ("/home/joseph8th/Dev/challenges/" . "ErnestoArias/")
+ ("/home/joseph8th/Dev/skyfall_venv/bask/" . "run/")
+ ("/home/joseph8th/Dev/utils/" . "tmp/")
+ ("/scp:portal-admin_prometheus:/data/" . "www/")
+ ("/scp:portal-admin_prometheus:/" . "data/")
+ ("/scp:wolverine:skyfall_venv/src/" . "config/")
+ ("/scp:wolverine:skyfall_venv/" . "src/")
+ ("/scp:spiderman:" . "skyfall_venv/")
+ ("/scp:dev-skyfall:/home/ubuntu/skyfall_venv/src/skyfall/" . "jobs/")
+ ("/scp:dev-skyfall:/home/ubuntu/skyfall_venv/src/" . "skyfall/")
+ ("/scp:dev-skyfall:skyfall_venv/src/" . "config/")
+ ("/scp:dev-skyfall:skyfall_venv/" . "src/")
+ ("/home/joseph8th/Dev/skyfall_venv/tmp/v4.2.0/skyfall/" . "jobs/")
+ ("/home/joseph8th/Dev/skyfall_venv/tmp/v4.2.0/" . "skyfall/")
+ ("/home/joseph8th/Dev/skyfall_venv/tmp/" . "v4.2.0/")
+ ("/scp:portal-matrix_gravity-main:/data/www/gravity/application/" . "migrations/")
+ ("/scp:portal-matrix_gravity-main:/data/www/gravity/" . "application/")
+ ("/scp:portal-matrix_gravity-main:/data/www/" . "gravity/")
+ ("/home/joseph8th/Dev/skyfall_venv/etc/cielofix/" . "GetScripts/")
+ ("/scp:staging-ma-gr:/var/" . "www/")
+ ("/home/joseph8th/inception/vhosts/prometheus/vger/vger/subcommand/" . "snapshot/")
+ ("/home/joseph8th/inception/vhosts/prometheus/vger/vger/" . "hacks/")
+ ("/home/joseph8th/inception/vhosts/prometheus/vger/" . "vger/")
+ ("/scp:staging-ma-gr:/" . "data/")
+ ("/scp:qa-matrix:/var/www/matrix/application/" . "models/")
+ ("/scp:qa-matrix:/var/www/matrix/" . "application/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/migrations/" . ".req/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/" . "assets/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/" . "application/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/" . "gravity/")
+ ("/home/joseph8th/Dev/inception_dev/inception/" . "vhosts/")
+ ("/home/joseph8th/Dev/sql/" . "StoredProcedures/")
+ ("/scp:beast:/home/cielo/skyfall_venv/" . "src/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/assets/" . "templates/")
+ ("/scp:beast:/home/cielo/skyfall_venv/src/skyfall/" . "jobs/")
+ ("/scp:beast:/home/cielo/skyfall_venv/src/" . "config/")
+ ("/scp:wolverine:skyfall/src/" . "config/")
+ ("/scp:wolverine:skyfall/" . "src/")
+ ("/home/joseph8th/inception/vhosts/matrix/assets/js/" . "views/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/tests/" . "controllers/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/libraries/" . "reports/")
+ ("/scp:beast:skyfall_venv/src/" . "config/")
+ ("/scp:beast:skyfall_venv/" . "src/")
+ ("/scp:beast:" . "skyfall_venv/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/libraries/" . "Cielo/")
+ ("/beast:skyfall_venv/src/" . "config/")
+ ("/beast:skyfall_venv/" . "src/")
+ ("/home/joseph8th/Dev/joseph8th/" . "ssh-config-update/")
+ ("/home/joseph8th/Dev/vger_venv/src/vger/subcommand/" . "report/")
+ ("/scp:batman:skyfall_venv/installers/" . "linux-rhel/")
+ ("/scp:spiderman:skyfall_venv/installers/" . "linux-centos7/")
+ ("/scp:spiderman:skyfall_venv/" . "installers/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/application/third_party/the-core/" . "helpers/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/application/third_party/" . "the-core/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/application/" . "third_party/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/prometheus/application/models/" . "analytics/")
+ ("/home/joseph8th/inception/vhosts/prometheus/restest/fixtures/" . "gravity_v2/")
+ ("/home/joseph8th/inception/vhosts/prometheus/restest/" . "fixtures/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/" . "models/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/" . "the-core/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/config/" . "production/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/models/" . "analytics/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/application/" . "third_party/")
+ ("/scp:portal-admin_prometheus:/data/www/prometheus/" . "application/")
+ ("/scp:portal-admin_prometheus:/data/www/" . "prometheus/")
+ ("/home/joseph8th/Dev/vger_venv/src/vger/" . "hacks/")
+ ("/home/joseph8th/Dev/vger_venv/src/" . "vger/")
+ ("/home/joseph8th/Dev/vger_venv/" . "src/")
+ ("/home/joseph8th/Dev/skyfall_venv/installers/" . "linux-arm/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/third_party/the-core/" . "libraries/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/third_party/" . "the-core/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/" . "config/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/restest/fixtures/" . "local_gravity_v2/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/restest/" . "fixtures/")
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/" . "application/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/third_party/the-core/" . "models/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/third_party/" . "the-core/")
+ ("/scp:daredevil:/var/www/html/" . "cescieloway/")
+ ("/scp:daredevil:/var/www/" . "html/")
+ ("/scp:daredevil:/var/" . "www/")
+ ("/scp:daredevil:/" . "var/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/config/" . "development/")
+ ("/scp:staging-ma-gr:/data/www/gravity/application/models/" . "v2/")
+ ("/scp:staging-ma-gr:/data/www/gravity/application/libraries/Cielo/" . "Feature/")
+ ("/scp:staging-ma-gr:/data/www/gravity/application/libraries/" . "Cielo/")
+ ("/scp:staging-ma-gr:/data/www/gravity/application/" . "migrations/")
+ ("/scp:staging-ma-gr:/data/www/gravity/" . "application/")
+ ("/scp:staging-ma-gr:/data/www/" . "matrix/")
+ ("/scp:staging-ma-gr:/data/" . "www/")
+ ("/home/joseph8th/inception/vhosts/matrix/assets/templates/" . "reports/")
+ ("/home/joseph8th/inception/vhosts/matrix/assets/" . "js/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/views/" . "settings/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/models/" . "analytics/")
+ ("/home/joseph8th/Documents/Documentation/FLM-x/" . "st430-9a-2008-am1-2011_files/")
+ ("/home/joseph8th/Dev/snmp_services/" . "barco_laser/")
+ ("/scp:batman:skyfall_venv/src/" . "config/")
+ ("/scp:batman:skyfall_venv/" . "src/")
+ ("/scp:batman:" . "skyfall_venv/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/third_party/the-core/" . "libraries/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/third_party/" . "the-core/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/libraries/" . "cas/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/config/" . "staging/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/config/" . "testing/")
+ ("/" . "home/")
+ ("/scp:spiderman:/usr/local/lib/cieloagent/" . "config/")
+ ("/var/www/html/application/" . "views/")
+ ("/home/joseph8th/Dev/skyfall_venv/etc/" . "cron_restart_updater/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/models/" . "v2/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/third_party/the-core/" . "models/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/third_party/" . "the-core/")
+ ("/home/joseph8th/inception/vhosts/prometheus/application/" . "config/")
+ ("/home/joseph8th/inception/vhosts/prometheus/" . "application/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/pkg/scripts-linux/init/" . "sysv/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/pkg/scripts-linux/" . "init/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/pkg/" . "scripts-linux/")
+ ("/home/joseph8th/Documents/Documentation/" . "documentation/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/libraries/Cielo/Agent/Asset/Projector/" . "Barco/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/libraries/Cielo/Agent/Asset/" . "Projector/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/libraries/Cielo/Agent/" . "Asset/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/migrations/" . ".req/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/libraries/Cielo/" . "Agent/")
+ ("/home/joseph8th/inception/vhosts/matrix/application/" . "third_party/")
+ ("/home/joseph8th/inception/vhosts/matrix/" . "assets/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/libraries/" . "Cielo/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/controllers/" . "v2/")
+ ("/home/joseph8th/Documents/" . "NewHires/")
+ ("/home/" . "joseph8th/")
+ ("/home/joseph8th/inception/vhosts/gravity/application/" . "libraries/")
+ ("/home/joseph8th/inception/vhosts/gravity/" . "application/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/jobs/" . "done/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/skyfall/" . "jobs/")
+ ("/home/joseph8th/Dev/skyfall_venv/src/" . "config/")
+ ("/home/joseph8th/Dev/skyfall_venv/" . "src/")
+ ("/home/joseph8th/Dev/" . "bask_venv/")
+ ("/home/joseph8th/tmp/" . "assets/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/" . "development/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/views/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/templates/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/models/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/application/" . "controllers/")
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/js/" . "admin/")
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/" . "js/")
+ ("/home/joseph8th/inception/vhosts/oblivion/" . "assets/")
+ ("/home/joseph8th/inception/vhosts/" . "matrix/")
+ ("/home/joseph8th/inception/" . "assets/")
+ ("/home/joseph8th/" . "inception/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/models/reports/"
+ "/home/joseph8th/inception/assets/database/"
+ "/home/joseph8th/inception/vhosts/matrix/assets/js/"
+ "/home/joseph8th/inception/vhosts/matrix/assets/js/views/"
+ "/home/joseph8th/inception/vhosts/matrix/application/libraries/"
+ "/home/joseph8th/inception/vhosts/matrix/system/database/"
+ "/home/joseph8th/inception/vhosts/matrix/application/config/development/"
+ "/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/controllers/"
+ "/home/joseph8th/inception/vhosts/matrix/application/controllers/"
+ "/home/joseph8th/inception/vhosts/matrix/application/models/"
+ "/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/models/"
+ "/home/joseph8th/Documents/NewHires/"
+ "/home/joseph8th/inception/vhosts/gravity/application/libraries/"
+ "/home/joseph8th/inception/vhosts/gravity/application/migrations/"
+ "/home/joseph8th/inception/vhosts/gravity/application/migrations/.req/"
+ "/home/joseph8th/inception/vhosts/gravity/application/config/"
+ "/home/joseph8th/inception/vhosts/gravity/application/models/v2/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/config/development/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/config/testing/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/config/staging/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/config/production/"
+ "/home/joseph8th/inception/vhosts/oblivion/assets/js/admin/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/controllers/"
+ "/home/joseph8th/inception/vhosts/gravity/application/models/"
+ "/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/helpers/"
+ "/home/joseph8th/inception/vhosts/matrix/application/language/es/reports/"
+ "/home/joseph8th/inception/vhosts/matrix/application/language/en/reports/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/testing/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/staging/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/production/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/development/"
+ "/home/joseph8th/inception/vhosts/matrix/application/config/testing/"
+ "/home/joseph8th/inception/vhosts/matrix/application/config/staging/"
+ "/home/joseph8th/inception/vhosts/matrix/application/config/production/"
+ "/home/joseph8th/inception/vhosts/prometheus/application/config/testing/"
+ "/home/joseph8th/inception/vhosts/prometheus/application/config/staging/"
+ "/home/joseph8th/inception/vhosts/prometheus/application/config/production/"
+ "/home/joseph8th/inception/vhosts/prometheus/application/config/development/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/config/production/"
+ "/home/joseph8th/inception/vhosts/oblivion/application/config/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/es/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/en/"
+ "/home/joseph8th/inception/vhosts/matrix/application/views/settings/"
+ "/home/joseph8th/inception/vhosts/matrix/application/language/es/"
+ "/home/joseph8th/inception/vhosts/matrix/application/language/en/"
+ "/home/joseph8th/inception/vhosts/matrix/assets/templates/reports/"
+ "/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/models/"
+ "/home/joseph8th/inception/vhosts/matrix/assets/templates/cms/"
+ "/home/joseph8th/inception/vhosts/matrix/application/language/en/cms/"
+ "/home/joseph8th/inception/vhosts/matrix/application/language/es/cms/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Sv_playback_report_model.php"
+ "vpf_clip_log-marcus.sql"
+ "report.js"
+ "Content_play_report_model.php"
+ "Detailed_sv_report_model.php"
+ "Advert_by_feature_report_model.php"
+ "Activity_report_model.php"
+ "Global_badge_client.php"
+ "Global_badge_factory.php"
+ "DB_query_builder.php"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/the-core/models/reports/" (23558 37896 714828 581000) "User_login_report_model.php" "Assets_offline_equipment_report_model.php" "Lamp_history_report_model.php" "Realtime_alerts_map_report_model.php" "Lamp_installation_report_model.php" "Content_movie_trend_report_model.php" "Asset_reboot_report_model.php" "Asset_audit_report_model.php" "Lamp_purchasing_report_report_model.php" "Abstract_report_model.php" "Top_complex_critical_showstoppers_report_model.php" "Complex_by_lamps_alerts_report_model.php" "Playback_campaign_report_model.php" "Raid_status_report_model.php" "Lamps_top_runtime_report_model.php" "Asset_autodetect_report_model.php" "../" "Total_shows_scheduled_report_model.php" "Lamps_replacement_report_model.php" "Trailer_by_feature_report_model.php" "Preshow_clip_report_model.php" "Software_compliance_report_model.php" "Kdm_list_report_model.php" "Assets_reboot_report_model.php" "Yearly_lamp_consumption_report_model.php" "Alert_per_region_report_model.php" "Network_errors_report_model.php" "Content_play_report_model.php" "Top_alert_types_report_model.php" "Playback_aud_report_model.php" "Advert_by_feature_report_model.php" "Sv_playback_report_model.php" "Asset_runtime_report_model.php" "Saved_shows_report_model.php" "Barco_maintenance_report_model.php" "Assets_aging_report_model.php" "Asset_upgrade_report_model.php" "Alert_over_time_report_model.php" "Barco_compliance_report_model.php" "Studio_trailer_rank_report_model.php" "Auds_no_vpf_report_model.php" "Playback_schedules_report_model.php" "Autodetect_errors_report_model.php" "Client_stats_report_model.php" "Circuit_raid_health_report_model.php" "Trailer_report_model.php" "Playback_report_model.php" "Asset_offline_report_model.php" "Lamp_hours_avg_report_model.php" "Time_to_resolution_report_model.php" "Alert_by_category_report_model.php" "./" "Lost_shows_report_model.php" "Alert_by_brand_report_model.php" "Lamp_forecast_report_model.php" "Average_time_to_resolution_report_model.php" "Advert_detail_report_model.php" "Detailed_sv_report_model.php" "Lamp_report_model.php" "Top_assets_alerts_report_model.php" "Assets_change_report_model.php" "Realtime_alerts_report_model.php" "Activity_report_model.php" "Preshow_report_model.php" "Advert_summary_report_model.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/models/reports/" (23557 41862 583769 32000) "User_login_report_model.php" "Assets_offline_equipment_report_model.php" "Lamp_history_report_model.php" "Realtime_alerts_map_report_model.php" "Lamp_installation_report_model.php" "Content_movie_trend_report_model.php" "Asset_reboot_report_model.php" "Asset_audit_report_model.php" "Lamp_purchasing_report_report_model.php" "Abstract_report_model.php" "Top_complex_critical_showstoppers_report_model.php" "Complex_by_lamps_alerts_report_model.php" "Playback_campaign_report_model.php" "Raid_status_report_model.php" "Lamps_top_runtime_report_model.php" "Asset_autodetect_report_model.php" "../" "Total_shows_scheduled_report_model.php" "Lamps_replacement_report_model.php" "Trailer_by_feature_report_model.php" "Preshow_clip_report_model.php" "Software_compliance_report_model.php" "Kdm_list_report_model.php" "Assets_reboot_report_model.php" "Yearly_lamp_consumption_report_model.php" "Alert_per_region_report_model.php" "Network_errors_report_model.php" "Content_play_report_model.php" "Top_alert_types_report_model.php" "Playback_aud_report_model.php" "Advert_by_feature_report_model.php" "Asset_runtime_report_model.php" "Saved_shows_report_model.php" "Barco_maintenance_report_model.php" "Assets_aging_report_model.php" "Asset_upgrade_report_model.php" "Alert_over_time_report_model.php" "Barco_compliance_report_model.php" "Studio_trailer_rank_report_model.php" "Auds_no_vpf_report_model.php" "Playback_schedules_report_model.php" "Autodetect_errors_report_model.php" "Client_stats_report_model.php" "Circuit_raid_health_report_model.php" "Trailer_report_model.php" "Playback_report_model.php" "Asset_offline_report_model.php" "Lamp_hours_avg_report_model.php" "Time_to_resolution_report_model.php" "Alert_by_category_report_model.php" "./" "Lost_shows_report_model.php" "Alert_by_brand_report_model.php" "Lamp_forecast_report_model.php" "Average_time_to_resolution_report_model.php" "Advert_detail_report_model.php" "Detailed_sv_report_model.php" "Lamp_report_model.php" "Top_assets_alerts_report_model.php" "Assets_change_report_model.php" "Realtime_alerts_report_model.php" "Activity_report_model.php" "Preshow_report_model.php" "Advert_summary_report_model.php")
+
+ ("/home/joseph8th/inception/assets/database/" (23557 45498 451746 710000) "cielo_assets.sql" "../" ".gitignore" "playlist_schedule-goodrich.sql" "event-5-goodrich.sql" "report_preshow-goodrich.sql" "report_saved_shows-goodrich.sql" "analytics_lamp_change_goodrich_48.sql" "cielo_sap.sql" "./" "report_lost_shows-goodrich.sql" "vpf_clip_log-marcus.sql" "report_lost_shows_table.sql" "cielo_qa-20180607.tar.gz")
+
+ ("/home/joseph8th/inception/assets/" (23512 34098 377164 990000) "database/" "opendns.zip" "tmp/" "report_flm-31-csv.xlsx" "sony_mft_key/" "../" "reports_titles.php" "postfix/" "postfix.zip" "node_modules/" "AmazonRedshiftODBC-64-bit-1.4.1.1001-1.x86_64.deb" "vhosts/" "ssl/" "dcnc_regex.php" "Backup.postman_dump.json" "./" "agent_scripts/" ".aws/" "flm-188.xlsx" "odbc/")
+
+ ("/home/joseph8th/inception/" (23480 63132 463117 997000) ".vagrant/" "login_lang.php" "tmp/" "../" ".git/" ".gitignore" ".gitattributes" "provision.sh" "vhosts/" "transcheat/" "Vagrantfile" "./" "ubuntu-xenial-16.04-cloudimg-console.log" "assets/" "README.md")
+
+ ("/home/" (22929 56196 82946 182000) "../" "joseph8th/" "./")
+
+ ("/home/joseph8th/" (23549 24901 41597 868000) ".gitconfig" "emacs.d/" "Pictures/" ".cache/" ".xinputrc" ".emacs.d/" ".adobe/" "inception/" ".ssh/" "tmp/" "installers/" ".screenrc" ".php_history" "VirtualBox VMs/" "../" "public_html/" ".dbus/" ".bashrc~" ".icons/" ".config/" ".zoom/" ".mysql/" "Conferencing/" "Music/" ".nano/" "Public/" ".mozilla/" ".gtkrc-xfce" ".gtk-bookmarks" ".install4j" ".bash_history" ".guake-indicator/" ".bitrock/" "snap/" "public_org/" ".sqlworkbench/" ".gimp-2.8/" ".kube/" ".communicator_install.ini" "dumps/" ".QtWebEngineProcess/" ".gksu.lock" "arc/" ".docker/" ".thumbnails/" ".gnome/" ".googleapis/" "Templates/" ".gnupg/" ".ICEauthority" ".bash_logout" "lib/" ".ipython/" "Dev/" ".bash_profile" ".gem/" ".pki/" ".bashrc" ".hplip/" ".xsession-errors.old" ".atom/" ".vagrant.d/" ".Xauthority" ".themes/" ".xonshrc" ".ansible/" ".thunderbird/" "default-soapui-workspace.xml" "Desktop/" ".minikube/" ".bash_aliases" ".profile" "emacs.d.tar.gz" "Downloads/" ".wine/" ".local/" "pem/" ".gtkrc-2.0" ".gconf/" "soapui-settings.xml" ".remmina/" "./" ".rpmdb/" "bin/" ".npm/" ".mysql_history" ".rnd" ".xscreensaver" ".linuxmint/" "Documents/" ".soapuios/" ".HipChat/" ".swt/" ".aptitude/" "Videos/" ".aws/" ".python_history" ".composer/" ".editorconfig" ".java/" ".sudo_as_admin_successful" ".macromedia/" ".dmrc" ".xsession-errors" ".wget-hsts" ".virtualenvs/" ".sage/" ".oracle_jre_usage/")
+
+ ("/home/joseph8th/.emacs.d/" (23557 45135 642931 304000) "elpa/" "url/" "session.106060d4e6c5d3a8150369679083291900000025390046" "snippets/" "../" "projectile-bookmarks.eld" "term/" "ido.last" "auto-save-list/" "ac-comphist.dat" "project-explorer-cache/" "network-security.data" "session.10757c4f82e63c0ba2151335170297430800000027200050" "session.106306810938a689d3151441068421954300000034100071" "tramp" "session.10573b63f4d1c967df150539473945072500000024410049" "session.10ef721ef1c63c1c7c150325949978685200000018960055" "./" "init.el" "eshell/" "nxhtml/" "ac-dict/" ".mc-lists.el" "lisp/")
+
+ ("/home/joseph8th/.emacs.d/elpa/" (23557 45160 903545 128000) "helm-system-packages-20181012.655/" "json-reformat-20151204.900/" "yasnippet-readme.txt" "magit-popup-20160130.649/" "async-20160108.1249/" "editorconfig-fnmatch-readme.txt" "auto-yasnippet-20180503.1908/" "archives/" "php-mode-readme.txt" "sr-speedbar-20150804.951/" "../" "fill-column-indicator-20151030.1233/" "magit-20160210.555/" "mmm-mode-20150828.1716/" "helm-core-20160210.2323/" "epl-20150517.433/" "json-mode-readme.txt" "sage-shell-mode-20180215.835/" "gnupg/" "ido-vertical-mode-20151003.1833/" "ido-hacks-20150331.1209/" "editorconfig-core-readme.txt" "web-server-20140905.1706/" "editorconfig-core-20160126.2235/" "seq-1.11.signed" "projectile-speedbar-20150629.1153/" "s-20160115.58/" "git-commit-mode-20141014.1634/" "htmlize-readme.txt" "s-20140910.334/" "editorconfig-fnmatch-20160126.2235/" "tabbar-20141109.143/" "helm-projectile-all-readme.txt" "with-editor-20160128.1201/" "org-20160208/" "es-lib-20141111.1030/" "editorconfig-readme.txt" "org-ehtml-readme.txt" "project-explorer-20150503.1714/" "dumb-jump-20171013.2105/" "yasnippet-20180916.2115/" "let-alist-1.0.4.signed" "web-server-readme.txt" "editorconfig-20160209.746/" "org-ehtml-20150506.1658/" "seq-1.11/" "helm-sage-20160514.745/" "projectile-20160210.905/" "auto-yasnippet-readme.txt" "web-server-0.1.1/" "shell-switcher-20161028.2252/" "es-windows-20140211.104/" "auto-complete-20160107.8/" "autopair-20140825.427/" "helm-projectile-20151220.221/" "htmlize-20180923.1829/" "helm-projectile-readme.txt" "json-snatcher-20150511.2047/" "helm-system-packages-readme.txt" "js2-mode-20180605.1425/" "deferred-20170901.1330/" "pkg-info-20140610.630/" "yaml-mode-20180409.607/" "markdown-mode-20160928.932/" "git-commit-20160130.649/" "flycheck-20160208.706/" "web-server-0.1.1.signed" "js2-mode-readme.txt" "org-20160208.signed" "pkg-info-20150517.443/" "mmm-mode-readme.txt" "f-20151113.123/" "yaml-mode-readme.txt" "./" "multiple-cursors-20151205.1225/" "auto-complete-sage-20160514.751/" "popup-20151222.1339/" "dash-20151216.1315/" "git-rebase-mode-20140928.1547/" "color-theme-20080305.34/" "popup-20150116.1223/" "php-mode-20180608.250/" "color-theme-sanityinc-tomorrow-20160205.1800/" "multiple-cursors-20150101.1431/" "markdown-mode-readme.txt" "json-mode-20151116.2000/" "let-alist-1.0.4/" "helm-20160211.357/" "switch-window-20150114.215/" "project-explorer-readme.txt")
+
+ ("/home/joseph8th/.emacs.d/elpa/helm-system-packages-20181012.655/" (23557 45137 238970 88000) "helm-system-packages-dnf.elc" "helm-system-packages.el" "helm-system-packages-pacman.elc" "../" "helm-system-packages-autoloads.el" "helm-system-packages-xbps.elc" "helm-system-packages-dpkg.elc" "helm-system-packages-guix.el" "helm-system-packages-brew.el" "helm-system-packages-portage.el" "helm-system-packages-xbps.el" "helm-system-packages-guix.elc" "helm-system-packages-brew.elc" "helm-system-packages.elc" "helm-system-packages-dnf.el" "./" "helm-system-packages-pacman.el" "helm-system-packages-portage.elc" "helm-system-packages-pkg.el" "helm-system-packages-dpkg.el")
+
+ ("/home/joseph8th/inception/vhosts/matrix/" (23557 39101 332473 367000) ".gitmodules" "vendor/" "reporter/" "application/" "composer.lock" "environment.php.qa.bak" "../" ".git/" "environment.php.dev.bak" ".htaccess" "environment.php.sample" ".gitignore" ".gitattributes" ".mrrc/" "phpunit.xml" "dash_nav_reports.php" ".project" "environment.php.demo.bak" "index.php" "contrib/" "jenkins.sh" "./" "system/" "sw.js" "FETCH_HEAD" "loadbalancer.html" ".editorconfig" "environment.php" "composer.json" "assets/" "README.md" "bower_components/")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/controllers/" (23557 42451 714024 959000) "Flmx.php" "Setup.php" "Login.php" "../" "Dashboard.php" "Control.php" "Settings.php" "Test.php" "index.html" "Key.php" "Remote.php" "Cielo_support.php" "Cms.php" "Assets.php" "Reports.php" "./" "Support.php" "Userfiles.php" "Migrate.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/the-core/models/" (23557 39093 20271 717000) "Reports_model_trait.php" "User_model_trait.php" "Events_model_trait.php" "../" "Guacamole_model.php" "Cielo_assets_model.php" "reports/" "./" "Remote_model.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/es/cms/" (23556 32788 581011 348000) "messaging_lang.php" "film_bookings_lang.php" "users_manage_lang.php" "../" "lamp_view_lang.php" "todo_calendar_lang.php" "territory_groups_lang.php" "dashboard_lang.php" "alerts_view_lang.php" "tasks_manage_lang.php" "tasks_view_lang.php" "aud_notes_lang.php" "alerts_manage_lang.php" "./" "custom_lamps_lang.php" "complex_manage_lang.php" "revenue_lang.php" "barco_view_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/en/cms/" (23556 32788 577011 253000) "messaging_lang.php" "film_bookings_lang.php" "users_manage_lang.php" "../" "lamp_view_lang.php" "todo_calendar_lang.php" "territory_groups_lang.php" "dashboard_lang.php" "alerts_view_lang.php" "tasks_manage_lang.php" "tasks_view_lang.php" "aud_notes_lang.php" "alerts_manage_lang.php" "./" "custom_lamps_lang.php" "complex_manage_lang.php" "revenue_lang.php" "barco_view_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/assets/templates/cms/" (23556 32788 593011 631000) "barco_view.html" "film_bookings.html" "../" "alerts_manage.html" "users_manage.html" "revenue.html" "dashboard.html" "lamp_view.html" "todo_calendar.html" "messaging.html" "territory_groups.html" "alerts_view.html" "aud_notes.html" "complex_manage.html" "tasks_view.html" "./" "custom_lamps.html" "tasks_manage.html")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/models/" (23557 39101 324473 173000) "../" "Login_model.php" "Badges_model.php" "Auditorium_model.php" "Event_log_model.php" "index.html" "Complex_model.php" "Asset_model.php" "events/" "User_model.php" "Events_model.php" "Control_model.php" "Support_model.php" "Badge_model.php" "Cms_model.php" "Attribute_model.php" "Reports_model.php" "test/" "./" "Key_model.php" "Services_model.php" "Setup_model.php" "Client_model.php" "Dashboard_model.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/assets/templates/reports/" (23557 39101 332473 367000) "lamp_hours_avg.html" "user_login.html" "operational_overview.html" "lamp_installation.html" "on_time.html" "playback_campaign.html" "activity.html" "realtime_alerts.html" "alert_by_category.html" "asset_offline.html" "autodetect_errors.html" "../" "barco_maintenance.html" "asset_runtime.html" "alert_by_brand_showeast.html" "alert_over_time.html" "trailer.html" "playback.html" "asset_autodetect.html" "time_to_resolution.html" "preshow_clip.html" "complex_reporting_status.html" "advert_summary.html" "raid_status.html" "auds_no_vpf.html" "content_movie_trend.html" "asset_audit.html" "detailed_sv.html" "average_time_to_resolution.html" "asset_upgrade.html" "realtime_alerts_map.html" "yearly_lamp_consumption.html" "lost_shows.html" "lamp_purchasing_report.html" "saved_shows.html" "default_playback_campaign.html" "lamp_history.html" "playback_schedules.html" "lamp_forecast.html" "studio_trailer_rank.html" "network_errors.html" "sv_compliance.html" "advert_by_feature.html" "preshow.html" "./" "lamp.html" "alert_per_region.html" "assets_overview.html" "kdm_list.html" "analytics_overview.html" "sv_playback.html" "content_overview.html" "advert_detail.html" "alerts_overview.html" "content_play.html" "asset_reboot.html" "trailer_by_feature.html" "alert_by_brand.html")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/en/" (23557 39101 320473 76000) "landing_page_lang.php" "email/" "login_lang.php" "assets_template_lang.php" "settings_lang.php" "dash_template_lang.php" "../" "edit_aud_js_lang.php" "alerts_lang.php" "cms/" "attributes_lang.php" "reports_js_lang.php" "badge_type_lang.php" "index.html" "flmx_lang.php" "complexes_lang.php" "control_lang.php" "cms_calendar_popover_lang.php" "edit_complex_js_lang.php" "control_js_lang.php" "reports_lang.php" "users_js_lang.php" "cms_lang.php" "reports/" "clip_type_lang.php" "release_review_lang.php" "./" "users_lang.php" "settings_js_lang.php" "cms_js_lang.php" "nav_lang.php" "dash_lang.php" "login_js_lang.php" "flmx_js_lang.php" "sidebar_lang.php" "edit_aud_lang.php" "complexes_js_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/es/" (23557 39101 324473 173000) "landing_page_lang.php" "email/" "login_lang.php" "assets_template_lang.php" "settings_lang.php" "dash_template_lang.php" "../" "edit_aud_js_lang.php" "alerts_lang.php" "cms/" "attributes_lang.php" "reports_js_lang.php" "badge_type_lang.php" "index.html" "flmx_lang.php" "complexes_lang.php" "control_lang.php" "cms_calendar_popover_lang.php" "edit_complex_js_lang.php" "control_js_lang.php" "reports_lang.php" "users_js_lang.php" "cms_lang.php" "reports/" "clip_type_lang.php" "release_review_lang.php" "./" "users_lang.php" "settings_js_lang.php" "cms_js_lang.php" "nav_lang.php" "dash_lang.php" "login_js_lang.php" "flmx_js_lang.php" "sidebar_lang.php" "edit_aud_lang.php" "complexes_js_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/views/settings/" (23556 32788 585011 443000) "edit_aud.php" "../" "add_user_temp.php" "alert_settings.php" "complexes.php" "edit_attribute.php" "add_user.php" "users.php" "edit_user.php" "edit_complex.php" "index.php" "add_attribute.php" "attributes.php" "./" "activity_stream.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/en/" (23557 39101 320473 76000) "landing_page_lang.php" "email/" "login_lang.php" "assets_template_lang.php" "settings_lang.php" "dash_template_lang.php" "../" "edit_aud_js_lang.php" "alerts_lang.php" "cms/" "attributes_lang.php" "reports_js_lang.php" "badge_type_lang.php" "index.html" "flmx_lang.php" "complexes_lang.php" "control_lang.php" "cms_calendar_popover_lang.php" "edit_complex_js_lang.php" "control_js_lang.php" "reports_lang.php" "users_js_lang.php" "cms_lang.php" "reports/" "clip_type_lang.php" "release_review_lang.php" "./" "users_lang.php" "settings_js_lang.php" "cms_js_lang.php" "nav_lang.php" "dash_lang.php" "login_js_lang.php" "flmx_js_lang.php" "sidebar_lang.php" "edit_aud_lang.php" "complexes_js_lang.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/es/" (23557 39101 324473 173000) "landing_page_lang.php" "email/" "login_lang.php" "assets_template_lang.php" "settings_lang.php" "dash_template_lang.php" "../" "edit_aud_js_lang.php" "alerts_lang.php" "cms/" "attributes_lang.php" "reports_js_lang.php" "badge_type_lang.php" "index.html" "flmx_lang.php" "complexes_lang.php" "control_lang.php" "cms_calendar_popover_lang.php" "edit_complex_js_lang.php" "control_js_lang.php" "reports_lang.php" "users_js_lang.php" "cms_lang.php" "reports/" "clip_type_lang.php" "release_review_lang.php" "./" "users_lang.php" "settings_js_lang.php" "cms_js_lang.php" "nav_lang.php" "dash_lang.php" "login_js_lang.php" "flmx_js_lang.php" "sidebar_lang.php" "edit_aud_lang.php" "complexes_js_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/production/" (23557 20577 347387 377000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/prometheus/application/config/development/" (23556 33549 763001 568000) "config.php" "../" "config.php.default" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/prometheus/application/config/production/" (23556 33549 763001 568000) "config.php" "../" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/prometheus/application/config/staging/" (23556 33549 763001 568000) "config.php" "../" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/prometheus/application/config/testing/" (23556 33549 763001 568000) "config.php" "../" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/config/production/" (23557 39101 320473 76000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/config/staging/" (23557 39101 320473 76000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/config/testing/" (23557 39101 320473 76000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/matrix/assets/js/" (23557 39101 328473 270000) "moment-with-locales.min.js" "login.js" "overview.js" "dimple.v2.3.0.min.js" "activity_stream.js" "simple.money.format.js" "datatables.min.js" "report.js" "require.js" "uikit_custom.min.js" "tagmanager.js" "settings_alert_settings.js" "google_analytics.js" "dash_complex_aud.js" "../" "d3.v5.min.js" "edit_user.js" "settings.js" "maps/" "jquery.validate.min.js" "d3.v5.js" "jquery.autocomplete.min.js" "device_detection.js" "cielo_support.js" "settings/" "jquery.js" "jquery-ui.min.js" "handlebars_helpers.js" "cms/" "prettyCheckable.min.js" "clipboard.min.js" "toggler.js" "moment-timezone-with-data.min.js" "footer.js" "notify.js" "timepicki.js" "index.html" "psd3.min.js" "flmx.js" "jquery.daterangepicker.js" "dashboard/" "attributes.js" "restive.min.js" "handlebars.js" "cielo_admin_common.min.js" "jquery.stepform.js" "dimple.v2.3.0.js" "jquery.daterangepicker.min.js" "landing.js" "underscore-min.js" "edit_aud.js" "dash_client.js" "cms.js" "asset_profile.js" "control/" "common_overview.js" "swiper.jquery.min.js" "anim_progressbar.js" "jquery.doublescroll.js" "login_reset.js" "backbone-min.js" "slow.js" "d3-scale-chromatic.v1.min.js" "./" "common.js" "pages/" "d3.v4.min.js" "global.js" "edit_complex.js" "cielo_admin_common.js" "views/" "jquery.browser.min.js" "complexes.js" "jquery.fileupload.js" "report_overview.js" "featherlight.js" "d3.min.js" "underscore-min.map" "dash.js" "datatables.celledit.js" "svg_as_png.js" "google-code-prettify/" "users.js" "common.min.js" "moment.min.js" "dimple.v2.2.0.min.js" "dash_nav.js" "rating.js")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/development/" (23556 33433 460245 644000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/production/" (23557 21058 462788 469000) "config.php" "../" "index.html" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/staging/" (23556 33433 460245 644000) "config.php" "../" "index.html" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/testing/" (23556 33433 460245 644000) "config.php" "../" "index.html" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/en/reports/" (23557 39101 320473 76000) "asset_upgrade_lang.php" "complex_reporting_status_lang.php" "alert_per_region_lang.php" "advert_by_feature_lang.php" "asset_audit_lang.php" "saved_shows_lang.php" "lamp_lang.php" "trailer_lang.php" "raid_status_lang.php" "../" "lamp_forecast_lang.php" "lamp_purchasing_report_lang.php" "yearly_lamp_consumption_lang.php" "total_shows_scheduled_lang.php" "playback_lang.php" "advert_detail_lang.php" "trailer_by_feature_lang.php" "content_movie_trend_lang.php" "lamp_history_lang.php" "lost_shows_lang.php" "operational_overview_lang.php" "content_play_lang.php" "realtime_alerts_lang.php" "software_compliance_lang.php" "alerts_overview_lang.php" "playback_schedules_lang.php" "default_playback_campaign_lang.php" "barco_compliance_lang.php" "auds_no_vpf_lang.php" "analytics_overview_lang.php" "activity_lang.php" "kdm_list_lang.php" "sv_compliance_lang.php" "alert_over_time_lang.php" "preshow_clip_lang.php" "asset_reboot_lang.php" "average_time_to_resolution_lang.php" "playback_campaign_lang.php" "asset_offline_lang.php" "sv_playback_lang.php" "lamps_replacement_lang.php" "user_login_lang.php" "time_to_resolution_lang.php" "lamp_installation_lang.php" "asset_runtime_lang.php" "./" "alert_by_brand_showeast_lang.php" "asset_autodetect_lang.php" "lamp_hours_avg_lang.php" "preshow_lang.php" "detailed_sv_lang.php" "advert_summary_lang.php" "top_complex_critical_showstoppers_lang.php" "playback_aud_lang.php" "realtime_alerts_map_lang.php" "barco_maintenance_lang.php" "alert_by_category_lang.php" "alert_by_brand_lang.php" "network_errors_lang.php" "autodetect_errors_lang.php" "assets_overview_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/es/reports/" (23557 39101 324473 173000) "asset_upgrade_lang.php" "complex_reporting_status_lang.php" "alert_per_region_lang.php" "advert_by_feature_lang.php" "asset_audit_lang.php" "saved_shows_lang.php" "lamp_lang.php" "trailer_lang.php" "raid_status_lang.php" "../" "lamp_forecast_lang.php" "lamp_purchasing_report_lang.php" "yearly_lamp_consumption_lang.php" "total_shows_scheduled_lang.php" "playback_lang.php" "advert_detail_lang.php" "trailer_by_feature_lang.php" "content_movie_trend_lang.php" "lamp_history_lang.php" "lost_shows_lang.php" "operational_overview_lang.php" "content_play_lang.php" "realtime_alerts_lang.php" "software_compliance_lang.php" "alerts_overview_lang.php" "playback_schedules_lang.php" "default_playback_campaign_lang.php" "barco_compliance_lang.php" "auds_no_vpf_lang.php" "analytics_overview_lang.php" "activity_lang.php" "kdm_list_lang.php" "sv_compliance_lang.php" "alert_over_time_lang.php" "preshow_clip_lang.php" "asset_reboot_lang.php" "average_time_to_resolution_lang.php" "playback_campaign_lang.php" "asset_offline_lang.php" "sv_playback_lang.php" "lamps_replacement_lang.php" "user_login_lang.php" "time_to_resolution_lang.php" "lamp_installation_lang.php" "asset_runtime_lang.php" "./" "alert_by_brand_showeast_lang.php" "asset_autodetect_lang.php" "lamp_hours_avg_lang.php" "preshow_lang.php" "detailed_sv_lang.php" "advert_summary_lang.php" "top_complex_critical_showstoppers_lang.php" "playback_aud_lang.php" "realtime_alerts_map_lang.php" "barco_maintenance_lang.php" "alert_by_category_lang.php" "alert_by_brand_lang.php" "network_errors_lang.php" "autodetect_errors_lang.php" "assets_overview_lang.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/helpers/" (23557 39093 16271 621000) "../" "licensemgr_helper.php" "global_helper.php" "index.html" "authorize_helper.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/matrix/assets/js/views/" (23557 39101 332473 367000) "by_expiration_range_filter.js" "by_graph_type_filter.js" "cinema_week_calendar_filter.js" "report.js" "movie_name_filter.js" "by_server_brand_filter.js" "combine_stacked_area_graph.js" "by_groupby_filter.js" "dual_donut_graph.js" "../" "geo_heatmap_graph.js" "by_studio_filter.js" "date_range_period_filter.js" "stacked_ordered_bar_vertical_line_graph.js" "date_range_period_overview_filter.js" "by_complex_group_filter.js" "by_clip_type_filter.js" "line_graph.js" "by_projector_brand_filter.js" "by_cgcountry_filter.js" "date_range_overview_filter.js" "by_auditorium_filter.js" "by_client_filter.js" "by_alert_level_filter.js" "bar_vertical_graph.js" "pie_graph.js" "filter.js" "graph.js" "by_top_trend_filter.js" "area_graph.js" "stacked_bar_vertical_graph.js" "by_complex_filter.js" "by_lamp_model_filter.js" "./" "by_territory_filter.js" "stacked_bar_horiz_graph.js" "by_user_filter.js" "combine_stacked_line_graph.js" "combine_stacked_bar_vertical_line_graph.js" "date_range_filter.js" "by_badge_type_filter.js" "uuid_filter.js" "by_graph_mode_filter.js" "report_overview.js" "bar_horiz_graph.js" "report_overview_custom.js" "by_expiration_range_extended_filter.js" "line_alt_graph.js" "date_range_original_filter.js")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/controllers/" (23557 21330 569188 899000) "Api.php" "Setup.php" "../" "Download.php" "Dashboard.php" "Service.php" "Lamps.php" "Test.php" "index.html" "User.php" "Partners.php" "Remote.php" "Devops.php" "Support_ticket.php" "System_health.php" "Sales.php" "Complex_ip_upload.php" "./" "Admin_users.php" "Admin.php" "Ajax.php" "Devices.php" "Migrate.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/js/admin/" (23557 21330 569188 899000) "client_geo_heatmap_graph.js" "login.js" "complex-form.js" "validate-package.js" "auditoriums.js" "guts-list.js" "../" "guts-form.js" "validate-services.js" "validate-note.js" "auditorium-form.js" "validate-complex.js" "validate-finance.js" "guts-global.js" "user.js" "finance.js" "validate-auditorium-backup.js" "services.js" "validate-auditorium.js" "validate-user.js" "kb_note.js" "validate-client.js" "validate-module.js" "devoops-constants.js" "clients.js" "complex.js" "note.js" "./" "validate-warranty.js" "complexes.js" "dashboard.js" "users.js" "warranty.js" "validate-complex-backup.js" "validate-admin_users.js" "validate-client-wizard.js" "client.js" "validate-kb_note.js" "validate-finance_note.js")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/config/production/" (23557 20577 347387 377000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/staging/" (23557 20577 347387 377000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/testing/" (23557 20577 347387 377000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/migrations/" (23557 26330 392953 963000) "075_MTX4596_add_notification_browser_queue_table.php" "077_MTX4681_report_time_resolution_add_unique_index_badge_id.php" "003_MTX3906_insert_user_to_send_vpf_mft_files_on_cinemex.php" "021_MTX4030_add_client_flmx_optin_table.php" "058_MTX4321_add_partner_id_to_sales_campaigns.php" "059_MTX4336_add_territory_tables.php" "081_MTX4733_copy_nec_nc900c_services.php" "074_MTX4537_add_command_lite_col_client_table.php" "062_MTX4288_add_lamp_strike_to_consumable_lamp.php" "044_MTX4319_beacon_api.php" "001_MTX3792_alerts_by_category_alerts_by_region.php" "056_MTX4395_add_monthly_account_snapshots.php" ".git" "011_MTX4078_add_cielo_users_to_guac.php" "049_MTX4350_add_revenue_settings_client_table.php" ".gitignore" "048_MTX4385_add_indices_to_vpf_clip_log.php" "040_MTX4300_update_report_saved_show_table.php" "068_MTX4524_alter_saved_and_lost_ahows_tables_to_allow_cascade_foreign_key_option.php" "017_MTX4030_client_api_user_table_allow_multiple_api_user_per_client.php" "031_MTX4176_alter_table_event_history_msg_mediumtext_type.php" "014_MTX4067_operation_overview_report_module.php" "045_MTX4353_add_uptime_column.php" "053_MTX4321_add_sales_campaign_module.php" "072_MTX4506_normalize_consumable_lamp_models.php" "070_MTX4557_alter_saved_and_lost_ahows_tables_to_allow_cascade_foreign_key_option.php" "005_MTX4057_add_columns_complex_agent_performance_settings.php" "019_MTX4110_playlist_schedule_temp_archive.php" "069_MTX4541_change_assets_auto_detect_report_name.php" "066_MTX4526_update_lamp_strikes_service.php" "034_MTX4184_cesplus_partner_creation_access.php" "065_MTX4469_add_alert_by_brand_report_module.php" "078_MTX4703_sony_r320_remove_imb_services.php" "032_MTX4201_fix_bug_inserting_properly_data_for_each_complex.php" "046_MTX4343_add_lost_shows_to_report_module.php" "024_MTX4126_create_client_api_keys_table.php" ".req/" "067_MTX4495_change_collation_vpf_studio_and_booking_film_tables.php" ".project" "064_MTX4402_add_cielo_remote_ip_to_client_table.php" "002_MTX2964_convert_to_client_devices.php" "009_MTX3922_add_complex_tms_ip_address.php" "007_MTX3762_save_cielo_remote_details.php" "028_MTX4169_snmp_jobs_rework.php" "036_MTX4178_playback_campaign_report.php" "020_MTX4029_add_user_id_to_aud_cues.php" "026_MTX4140_add_ost_update_at_column_to_support_ticket_table.php" "076_MTX4631_add_nodeset_column_client_complex.php" "054_MTX4364_cinemex_booking_ticket_fix.php" "013_MTX3897_add_auditorium_attributes.php" "071_MTX4504_cielo_rescue.php" "037_MTX4232_create_country_phone_code_table.php" "012_MTX4066_add_new_assets_reports_report_module.php" "006_MTX4042_connectivity_network_issues_alert.php" "061_MTX4216_cinecolombia_sony_mft_account.php" "018_MTX4107_add_autotask_account_id_to_complex.php" "082_MTX4434_fk_cascade_device_service_auditorium_service.php" "051_MTX4414_update_ims2000_server_model_oid.php" "057_MTX4416_remove_remote_access_flag.php" "080_MTX4721_disable_reports_to_be_deprecated.php" "030_MTX4068_control_auth.php" "073_MTX4265_multi_language.php" "025_MXT4152_fix_api_log.php" "008_MTX4076_add_agent_ver_column_agent_job_table.php" "010_MTX4077_add_complex_tms_connection_details.php" "027_MTX4172_showstopper_update.php" "055_MTX4141_add_qube_device_and_services.php" "079_MTX4538_smart_alert_settings.php" "035_MTX4214_delete_wrong_badges_to_avoid_weekly_report_bug.php" "023_MTX2964_add_client_device_detached_table.php" "029_MTX4020_add_new_yearly_lamp_consumption_report_module.php" "052_MTX4415_copy_barco_dp2k_15clp_services.php" "060_MTX4404_deprecate_clip_playback_report.php" "043_MTX4219_add_is_vpn_flag_to_complex.php" "015_MTX4103_add_disabled_column_agent_job.php" "041_MTX4178_add_completion_report_table.php" "050_MTX4335_fix_gdc_asset_services.php" "016_MTX4087_auditorium_device_failure_count_to_int.php" "039_MTX4300_update_vpf_clip_log_playback_campaign_table.php" "042_MTX4342_create_report_lost_shows_table.php" "033_MTX4156_fix_christie_cp2000zx_lamp_services.php" "022_MTX4116_content_overview_report_module.php" "004_MTX3896_add_complex_attribute.php" "047_MTX4349_change_uptime_column_to_big_decimal.php" "038_MTX4300_create_report_saved_shows.php" "063_MTX4402_add_devops_role_access_command.php" "../" "./")
+
+ ("/home/joseph8th/Documents/NewHires/" (23557 33921 813417 925000) "../" "orientation.tex" "orientation-extra.org" "images/" "orientation.org" "orientation.pdf" "./" "orientation.html")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/models/" (23557 39101 324473 173000) "../" "Login_model.php" "Badges_model.php" "Auditorium_model.php" "Event_log_model.php" "index.html" "Complex_model.php" "Asset_model.php" "events/" "User_model.php" "Events_model.php" "Control_model.php" "Support_model.php" "Badge_model.php" "Cms_model.php" "Attribute_model.php" "Reports_model.php" "test/" "./" "Key_model.php" "Services_model.php" "Setup_model.php" "Client_model.php" "Dashboard_model.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/config/development/" (23557 36125 9349 10000) "database.warehouse.bak" "config.php" "../" "config.php.default" "database.c9" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default" "database.qa")
+
+ ("/home/joseph8th/inception/vhosts/matrix/system/database/" (23557 39067 851661 110000) "DB_query_builder.php" "DB_utility.php" "drivers/" "../" "index.html" "DB_driver.php" "DB_result.php" "DB.php" "DB_forge.php" "./" "DB_cache.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/libraries/" (23557 40849 730793 434000) "../" "MY_Migration.php" "Parsedown.php" "index.html" "Global_badge_client.php" "Jwt.php" "Global_badge_factory.php" "Flm.php" "Global_badge_complex.php" "MY_Form_validation.php" "Cielo_cas_rest_client.php" "Global_badge.php" "./" "Fuzzfind.php" "cas/")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/core/" (23557 41103 777057 408000) "../" "MY_Model.php" "index.html" "MY_Controller.php" "./" "MY_Log.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/models/" (23557 39093 20271 717000) "Reports_model_trait.php" "User_model_trait.php" "Events_model_trait.php" "../" "Guacamole_model.php" "Cielo_assets_model.php" "reports/" "./" "Remote_model.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/third_party/the-core/controllers/" (23557 39093 16271 621000) "../" "Reports_trait.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/matrix/system/" (23142 16116 743228 642000) "database/" "language/" "core/" "../" ".htaccess" "fonts/" "index.html" "helpers/" "./" "libraries/")
+
+ ("/home/joseph8th/inception/vhosts/" (23164 53493 49298 430000) "tmp/" "../" ".gitignore" "prometheus/" "oblivion/" "matrix/" "./" "gravity/")
+
+ ("/home/joseph8th/Documents/Documentation/documentation/" (22929 63107 633510 119000) "../" ".git/" ".gitignore" "noc-doc/" "./" "contributors.txt" "README.md")
+
+ ("/home/joseph8th/Documents/Documentation/" (23266 16162 703014 930000) "../" "feature_cases.xlsx" "SAP/" "Security/" "Confluence/" "Poller-Doc/" "benchmark-reports/" "feature_playlist (1).ods" "test-plans/" "feature_data.json" "./" "documentation/" "Architecture/" "FLM-x/" "Cielo Tech Stack w CE+S.pdf")
+
+ ("/home/joseph8th/Documents/" (23366 22365 556210 549000) "CIELO CMS.pdf" "Clients/" "Cloud-Research/" "Screenvision/" "CIELO Management System - Auditorium Notes-Tasks Requirements.docx" "CMS_Dashboard.png" "Benefits/" "NewHires/" "AWS/" "../" "Nelson Diaz Ascendo.doc" "SoapUI-Tutorials/" "matrix-readme.html" "bookmarks.html" "Documentation/" "APIs/" "Green-Loading-Button-90784.gif" "remote_access/" "Load Test - Flows.pdf" "openvpn/" "matrix-readme.pdf" "Cielo - Login Flow.gdraw" "Load_Regression_1.xlsx" "Aptana Rubles/" "postman/" "CIELO_CMS_-_Alerts_Management_Module_Mockup.png" "Cinedigm/" "Time Off Request Form.pdf" "Christie/" "cielo_sony_alerts.org" "Minority-Report/" ".#scratch.org" "Mockups/" "interviews/" "Dev-Candidates/" "./" "creds.org" "win7-box" "Goals/" "matrix-readme_files/" "CIELO Management System - Alerts Management Requirements.docx" "testing_kdm" "Presentations/" "Personal/" ".~lock.Nelson Diaz Ascendo.doc#" "MyTemp/" "Agile/")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/config/" (23557 26674 909463 528000) "profiler.php" "routes.php" "../" "testing/" "rest_flmx.php" "autoload.php" "doctypes.php" "index.html" "foreign_chars.php" "staging/" "smileys.php" "constants.php" "rest_flmapi.php" "phpunit/" "demo/" "database.php" "development/" "rest_beacon.php" "mimes.php" "email.php" "./" "hooks.php" "production/" "user_agents.php" "rest.php" "migration.php")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/libraries/" (23289 54570 841967 755000) "External_support_ticket_cron.php" "../" "External_Support_Ticket.php" "MY_Migration.php" "Artools.php" "REST_Controller.php" "index.html" "Support_ticket_cron.php" "RabbitMQ.php" "./" "Excel_export.php" "Cielo/" "Format.php")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/core/" (23209 49960 911707 497000) "../" "MY_Model.php" "index.html" "MY_Controller.php" "./" "MY_URI.php" "MY_Log.php")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/migrations/.req/" (23557 23407 430291 598000) "../" "MigrateServices.php" "Migration_Skel.php" "MigrateVoyager.php" "MigrateVoyager_Skel.php" "./" "Migration_Postgre_Skel.php" "MigrateCloneDevice.php")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/models/v2/" (23556 33433 460245 644000) "../" "Site_model.php" "./" "Zone_model.php")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/models/" (23557 20718 30742 324000) "Report_api_model.php" "Beacon_model.php" "../" "Support_ticket_model.php" "Apiuser_model.php" "Feature_model.php" "Support_users_model.php" "Rescue_model.php" "Auditorium_model.php" "Notification_model.php" "Event_log_model.php" "Support_comment_history_model.php" "index.html" "Complex_model.php" "events/" "User_model.php" "Support_comment_model.php" "Events_model.php" "Badge_model.php" "v2/" "System_health_model.php" "Reports_model.php" "./" "Flm_model.php" "Services_model.php" "Support_ticket_history_model.php" "Clip_model.php" "Tron_model.php" "Client_model.php" "Api_model.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/development/" (23557 20577 347387 377000) "config.php" "../" "config.php.default" "database.c9" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default" "database.qa")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/config/" (23209 49326 688532 825000) "profiler.php" "config.php" "routes.php" "../" "testing/" "autoload.php" "doctypes.php" "index.html" "foreign_chars.php" "staging/" "smileys.php" "constants.php" "demo/" "database.php" "development/" "mimes.php" "email.php" "./" "hooks.php" "production/" "user_agents.php" "rest.php" "migration.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/" (23142 16122 291387 344000) "language/" "core/" "config/" "../" ".htaccess" "hooks/" "cache/" "plugins/" "index.html" "controllers/" "helpers/" "logs/" "third_party/" "./" "models/" "tests/" "views/" "libraries/")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/views/" (23556 33201 138756 378000) "email/" "sales/" "../" "ip_upload_wizard/" "lamps/" "partners/" "index.html" "dashboard/" "errors/" "system_health/" "test.php" "devops/" "devices/" "admin/" "agreement.php" "layout/" "./" "admin_users/")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/oblivion/application/views/admin/" (23557 19635 656903 923000) "complexes-add.php" "kb_notes.php" "notes-edit.php" "templates/" "../" "clients-edit-old.php" "complexes.php" "notes-add.php" "finance_notes-edit.php" "modules-edit.php" "services-add.php" "templates.php" "client_notes-edit.php" "devoops.php" "users-edit.php" "clients-edit.php" "users.php" "services.php" "complex-form.php" "client_notes-add.php" "modules-add.php" "auditoriums-edit.php" "devoops_2.php" "auditorium-form.php" "packages-edit.php" "login_reset.php" "clients.php" "packages-add.php" "modules.php" "services-edit.php" "client_notes.php" "dashboard.php" "packages.php" "clients-add.php" "kb_notes-edit.php" "users-add.php" "notes.php" "./" "login.php" "auditoriums-add.php" "login_reset_result.php" "finance_notes.php" "kb_notes-add.php" "complexes-edit.php" "clients-wizard.php" "auditoriums.php" "finance_notes-add.php" ".#devoops_2.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/js/" (23556 33201 142756 474000) "autobahn.min.js" "offline_agents.js" "jquery.numeric.min.js" "devices.js" "jquery.chained.min.js" "sales/" "uikit_custom.min.js" "bootstrap-v3.min.js" "ip_upload_wizard.js" "_global.js" "bootstrap.min.js" "clipboard.js" "google_analytics.js" "jquery.fancybox.js" "epiceditor.min.js" "../" "jquery.validate.min.js" "jquery.form.js" "device_detection.js" "jquery.cookie.js" "handlebars_helpers.js" "prettyCheckable.min.js" "moment.js" "jquery-1.10.2.min.js" "clipboard.min.js" "jquery.form.min.js" "jquery.scrollto.min.js" "footer.js" "icheck.min.js" "timepicki.js" "index.html" "jquery.countdown.min.js" "partners.js" "jquery.daterangepicker.js" "country_timezones.js" "restive.min.js" "jquery.placeholder.min.js" "jquery.fileDownload.min.js" "handlebars.js" "jquery-ui-1.10.3.custom.min.js" "cielo_admin_common.min.js" "lamps.js" "jquery.daterangepicker.min.js" "alert_summary.js" "bootstrapValidator.js" "stay_standalone.js" "devops/" "jquery.doublescroll.js" "admin/" "alert_summary_new.js" "jquery.cookie.min.js" "default_datatables.js" "./" "trumbowyg/" "bootstrap-v2.min.js" "common.js" "select2.min.js" "global.js" "cielo_admin_common.js" "reports.js" "jquery.fancybox.min.js" "jquery.fileupload.js" "datatables.celledit.js" "common.min.js" "jquery.form.validation.min.js" "processing_status.js" "admin_users.js" "jquery.fileDownload.js" "moment.min.js")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/assets/" (23209 48875 5644 977000) "css/" "templates/" "../" "upload/" "fonts/" "xml/" "images/" "index.html" "devoops/" "icons/" "./" "js/")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/" (23556 33201 146756 568000) ".gitmodules" "looper/" "vendor/" "application/" "composer.lock" "bask/" "environment.php.qa.bak" "../" ".git/" "environment.php.dev.bak" ".htaccess" "environment.php.sample" ".gitignore" ".mrrc/" "licenses/" "phpunit.xml" ".project" "php_errors.log" "environment.php.demo.bak" "index.php" "contrib/" "jenkins.sh" "scripts/" "./" "system/" ".editorconfig" "environment.php" "composer.json" "assets/" "README.md" "bower_components/")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/config/" (23556 32788 577011 253000) "profiler.php" "routes.php" "../" "testing/" "autoload.php" "doctypes.php" "index.html" "foreign_chars.php" "staging/" "smileys.php" "constants.php" "demo/" "database.php" "development/" "mimes.php" "email.php" "./" "hooks.php" "production/" "user_agents.php" "migration.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/config/" (23553 40043 58746 944000) "profiler.php" "routes.php" "../" "testing/" "rest_flmx.php" "autoload.php" "doctypes.php" "index.html" "foreign_chars.php" "staging/" "smileys.php" "constants.php" "rest_flmapi.php" "phpunit/" "demo/" "database.php" "development/" "rest_beacon.php" "mimes.php" "email.php" "./" "hooks.php" "production/" "user_agents.php" "rest.php" "migration.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/application/" (23230 33320 809164 883000) "language/" "core/" "config/" "../" ".htaccess" "hooks/" "cache/" "plugins/" "index.html" "controllers/" "helpers/" "logs/" "third_party/" "migrations/" "./" "models/" "tests/" "views/" "libraries/")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/gravity/" (23469 14764 510463 467000) ".gitmodules" "vendor/" "application/" "composer.lock" "environment.php.qa.bak" "../" ".git/" "environment.php.dev.bak" ".htaccess" "environment.php.sample" ".gitignore" "phpunit.xml" "environment.php.demo.bak" "index.php" "contrib/" "restest/" "make_uuid.php" "jenkins.sh" "scripts/" "./" "system/" "agent_scripts/" "loadbalancer.html" ".editorconfig" "environment.php.staging.bak" "environment.php" "composer.json" "README.md")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/" (23164 53493 49298 430000) "tmp/" "../" ".gitignore" "prometheus/" "oblivion/" "matrix/" "./" "gravity/")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/" (23553 42443 990537 983000) ".gitmodules" "vendor/" "reporter/" "application/" "composer.lock" "environment.php.qa.bak" "../" ".git/" "environment.php.dev.bak" ".htaccess" "environment.php.sample" ".gitignore" ".gitattributes" ".mrrc/" "phpunit.xml" "dash_nav_reports.php" ".project" "environment.php.demo.bak" "index.php" "contrib/" "jenkins.sh" "./" "system/" "sw.js" "FETCH_HEAD" "loadbalancer.html" ".editorconfig" "environment.php" "composer.json" "assets/" "README.md" "bower_components/")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/assets/" (23142 16117 39237 110000) "css/" "templates/" "../" "upload/" "fonts/" "xml/" "images/" "index.html" "icons/" "./" "js/")
+
+ ("/home/joseph8th/inception/vhosts/matrix/assets/js/dashboard/" (23553 42459 930908 115000) "client_geo_heatmap_graph.js" "peity/" "movie_posters.js" "countUp.js/" "../" "multi_level_donut_chart.js" "donut_chart.js" "jquery.easy-pie-chart/" "./")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/views/" (23553 42083 862172 680000) "email/" "landing_page_content.php" "flmx/" "../" "dash_aud.php" "dash_complex.php" "settings/" "cms/" "index.html" "errors/" "landing_page.php" "login_reset.php" "test.php" "dash_client.php" "control/" "reports/" "agreement.php" "layout/" "./" "login.php" "asset_profile.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/config/" (23209 49326 688532 825000) "profiler.php" "config.php" "routes.php" "../" "testing/" "autoload.php" "doctypes.php" "index.html" "foreign_chars.php" "staging/" "smileys.php" "constants.php" "demo/" "database.php" "development/" "mimes.php" "email.php" "./" "hooks.php" "production/" "user_agents.php" "rest.php" "migration.php")
+
+ ("/home/joseph8th/inception/vhosts/oblivion/application/" (23142 16122 291387 344000) "language/" "core/" "config/" "../" ".htaccess" "hooks/" "cache/" "plugins/" "index.html" "controllers/" "helpers/" "logs/" "third_party/" "./" "models/" "tests/" "views/" "libraries/")
+
+ ("/home/joseph8th/inception/vhosts/prometheus/vpf_mft/" (23532 24356 775524 936000) "sony_mft_key.tar.gz" "tmp/" "../" ".git" ".gitignore" "mft.py" "./" "requirements.txt" "README.md")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/language/es/reports/" (23553 20096 268095 445000) "asset_upgrade_lang.php" "complex_reporting_status_lang.php" "alert_per_region_lang.php" "advert_by_feature_lang.php" "asset_audit_lang.php" "saved_shows_lang.php" "lamp_lang.php" "trailer_lang.php" "raid_status_lang.php" "../" "lamp_forecast_lang.php" "lamp_purchasing_report_lang.php" "yearly_lamp_consumption_lang.php" "playback_lang.php" "advert_detail_lang.php" "trailer_by_feature_lang.php" "content_movie_trend_lang.php" "lamp_history_lang.php" "lost_shows_lang.php" "operational_overview_lang.php" "content_play_lang.php" "realtime_alerts_lang.php" "alerts_overview_lang.php" "playback_schedules_lang.php" "default_playback_campaign_lang.php" "barco_compliance_lang.php" "auds_no_vpf_lang.php" "analytics_overview_lang.php" "activity_lang.php" "kdm_list_lang.php" "sv_compliance_lang.php" "alert_over_time_lang.php" "preshow_clip_lang.php" "asset_reboot_lang.php" "average_time_to_resolution_lang.php" "playback_campaign_lang.php" "asset_offline_lang.php" "sv_playback_lang.php" "user_login_lang.php" "time_to_resolution_lang.php" "lamp_installation_lang.php" "asset_runtime_lang.php" "./" "alert_by_brand_showeast_lang.php" "asset_autodetect_lang.php" "lamp_hours_avg_lang.php" "preshow_lang.php" "detailed_sv_lang.php" "advert_summary_lang.php" "playback_aud_lang.php" "realtime_alerts_map_lang.php" "barco_maintenance_lang.php" "alert_by_category_lang.php" "alert_by_brand_lang.php" "network_errors_lang.php" "autodetect_errors_lang.php" "assets_overview_lang.php")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/" (23533 37457 456853 540000) "brokertool.py" ".dockerignore" "ftp/" "pkg/" "tmp/" "installers/" "config/" "jobtool.py" "../" ".git/" ".gitignore" "cache/" "pyasn1/" "sony/" "build_pkg.py" "skyfall/" "__pycache__/" "build/" "log/" "MANIFEST" "agent.py" "docs/" "run/" ".#logstash.conf" "plotlog" "ssh/" "temp/" "exec/" "./" "Dockerfile" "setup.py" "tests/" "requirements.txt" "pysnmp/" "VERSION" "README.md")
+
+ ("/home/joseph8th/Dev/bask_venv/src/" (23495 31987 202008 375000) "bask/" "tmp/" "../" ".git/" ".gitignore" "licenses/" "settings.py" "deployments/" "__pycache__/" "configmap.yaml" "son" "ssh/" "./" "Dockerfile" "requirements.txt" "README.md")
+
+ ("/home/joseph8th/Dev/skyfall_venv/src/config/" (23533 34495 598914 434000) "license.bin" "../" "agent.cfg" "data_cache.json" "./" "actions.json" "config_creds.cfg" "public-1531864517.pem" "public.pem")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/models/events/" (23550 45217 180183 752000) "../" "Control_events.php" "System_events.php" "./" "Admin_events.php" "Support_events.php")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/config/development/" (23550 45217 180183 752000) "config.php" "../" "config.php.default" "index.html" "constants.php" "database.php.default" "database.php" "./" "constants.php.default")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/config/testing/" (23550 45217 180183 752000) "config.php" "../" "index.html" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/config/production/" (23550 45217 180183 752000) "config.php" "../" "index.html" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/inception/vhosts/gravity/application/config/staging/" (23550 45217 180183 752000) "config.php" "../" "index.html" "constants.php" "database.php" "./")
+
+ ("/home/joseph8th/tmp/" (23550 50941 574969 498000) "qube.pem" "Reports_model_trait.php" "stockholm-sture_454.bin" "Api.php" "tmp.json" "lamp_services_validate.csv" "inception/" "cert/" "redshift/" "installers/" "plot1.png" "config" "christie-rescue.json" "../" "lamp_change.json" "marcus-gdc-cues.json" "CieloAgent-4.0.0-linux-centos7-installer.run" "REDSHIFT INFO.txt" "table.org" "agent-bench-01.png" "marcus-doremi-cues.json" "cert_Dolby-CAT745-38.zip" "FileZilla3/" "cielo_assets-lamp.csv" "table.html" "table.tex" "nec-rescue.json" "Postman/" "table.pdf" "plaza-central_468.bin" "poller.cfg" "the-core-branches.md" "ssh/" "showstopper-update.sql" "timecop.tar.gz" "feature-marcus.json" "centos7-fix.org" "jobtool" "./" "snmp.json" "actions.json" "barco-rescue.json" "tmp.org" "Services_model.php" "php-mode-improved.el" "lamp_services_validate.org" "test_ftp.php" "timecop/" "assets/" "marcus-sheboy-4316-vpf.json" "Lamp_change_model.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/es/email/" (23552 5617 385586 617000) "../" "email_message_lang.php" "reset_done_lang.php" "report_lang.php" "reset_lang.php" "new_user_lang.php" "assigned_alerts_lang.php" "control_auth_lang.php" "renew_key_lang.php" "./" "completed_tasks_lang.php" "assigned_task_lang.php" "message_lang.php")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/views/layout/" (23552 24021 719059 478000) "header.php" "main_sidebar.php" "reports_sidebar.php" "nav_complex_selection.php" "../" "nav_auditorium_selection.php" "footer.php" "default_sidebar.php" "reports_filters.php" "index.html" "dash_nav_reports.php" "reports_header.php" "setup_header.php" "./" "dash_nav.php" "main_header.php" "reports_footer.php")
+
+ ("/home/joseph8th/inception/vhosts/matrix/application/language/" (23512 47685 510244 838000) "../" "es/" "en/" "./")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/the-core/" (23142 16116 935234 135000) "../" ".git" ".gitignore" "index.html" "controllers/" "helpers/" "./" "models/" "libraries/" "README.md")
+
+ ("/home/joseph8th/Dev/inception_dev/inception/vhosts/matrix/application/third_party/" (23142 16116 931234 20000) "php-export-data.class.php" "../" "index.html" "phpexcel/" "the-core/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

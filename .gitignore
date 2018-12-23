@@ -3,3 +3,8 @@
 tmp/
 session.*
 *.elc
+*.dat
+*.data
+*.eld
+*/.emacs.d/tramp
+*/.emacs.d/url/cookies

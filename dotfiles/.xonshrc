@@ -1,0 +1,6 @@
+$PROMPT = '\n{INTENSE_GREEN}{user}{INTENSE_CYAN}:{cwd}{branch_color}{curr_branch: [{}]}{INTENSE_WHITE}{env_name: {}} {prompt_end} '
+
+xontrib load vox
+
+#$PROJECT_DIRS = ["~/Dev/skyfall_venv/src"]
+#xontrib load avox

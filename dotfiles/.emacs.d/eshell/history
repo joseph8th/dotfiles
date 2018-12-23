@@ -1,0 +1,128 @@
+ls
+cd /scp:batman:
+ls
+ls /etc/init.d/
+cd /scp:marcustest:
+cd skyfall_venv/src/
+find-file config/agent.cfg 
+find-file skyfall/brokers/Doremi.py 
+cd /scp:spiderman:skyfall_venv/installers/linux-centos7/
+ls
+find-file update.xml 
+cd /scp:batman:skyfall_venv/installers/linux-rhel/
+find-file update.xml 
+cd /scp:spiderman:/usr/local/lib
+ls
+cd cieloagent/
+ls
+find-file config/agent.cfg 
+sudo find-file config/agent.cfg 
+cd /scp:prodprom:/data/www/prometheus/
+cat application/config/production/constants.php
+cd /scp:prodmain:/data/
+ls
+cd www/gravity/
+cat application/config/production/constants.php
+cd 
+cd ~/Dev/skyfall_venv/src/
+ls
+cd build/cieloagent-linux/
+cp jobtool /scp:dockermain:
+cd /scp:dockermain:
+ls
+sudo docker ps
+sudo docker cp jobtool jupiter_977:/usr/local/lib/cieloagent/
+sudo docker exec -it jupiter_977 bash
+cd ~
+cd /scp:batman:
+es
+ls
+cd skyfall_venv/src/
+ls
+git fetch
+git fetch
+git fetch
+git checkout version-4.0.1
+./jobtool.py -h
+ls
+ls
+cd ../build/cieloagent-linux/
+ls
+cp jobtool /scp:dockermain:
+cd
+cp /scp:prodprom:/data/www/admin/licenses/jupiter_977.bin /scp:dockerdemo:skyfall_venv/src/config/license.bin
+ls /scp:dockerdemo:skyfall_venv/src/config/
+cd /scp:dockerdemo:skyfall_venv/src/config/
+find-file agent.cfg 
+cd ..
+find-file jobtool.py 
+cd /scp:staging:/data/www/gravity
+ls
+find-file application/config/staging/config.php
+find-file application/models/v2/Zone_model.php 
+ls /scp:prodprom:/data/www/admin/licenses/ | grep agent
+cp /scp:prodprom:/data/www/admin/licenses/agent-5_188.bin config/
+cd /scp:beast:
+ls
+cd skyfall_venv/
+ls
+cd src/
+find-file config/agent.cfg
+ls config/
+ls ~
+lls ..
+ls ..
+ls ../lib64/
+cd ../licenses/
+ls
+cd /scp:staging
+cd /scp:staging:
+ls /data
+cd /
+ls
+ls /home/
+cd /scp:staging:/data/www/gravity/
+ls
+git status
+git fetch
+git checkout MTX-3774-rm-kdm-active-playlist
+git status
+cd application/third_party/the-core/
+git status
+git checkout master
+git pull --rebase origin master
+cd ../../../
+git status
+ls application/logs/
+ls application/logs/
+rm application/logs/*log*
+find-file /scp:beast:.bash_profile
+cd /scp:staging:/data/www/gravity/
+find-file application/libraries/Cielo/Feature/Clip.php
+cd /scp:beast:
+ls
+cd skyfall_venv/src/
+ls
+ls config/
+find-file config/data_cache.json 
+ls
+ls -l
+sudo chown www-data. index.php 
+php index.php 
+ls
+cd ../
+ls
+cd ..
+cd sql_dump/
+ls
+more codeIgniter.sql 
+mysql -u root -uroot
+mysql -u root -proot
+systemctl restart apache2
+composer update
+cd ..
+ll
+ls -l
+chown -R www-data. .
+systemctl restart apache2
+ls
